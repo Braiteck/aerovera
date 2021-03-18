@@ -1,0 +1,165 @@
+.swiper-button-next,
+.swiper-button-prev
+{
+    top: 0;
+
+    display: flex;
+
+    width: 45px;
+    height: 45px;
+    margin: 0;
+
+    transition: border-color .2s linear;
+
+    border: 1px solid #c0c7dd;
+    border-radius: 3px;
+    background: #fff;
+
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.swiper-button-next:before,
+.swiper-button-prev:before,
+.swiper-button-next:after,
+.swiper-button-prev:after
+{
+    display: none;
+}
+
+.swiper-button-next .icon,
+.swiper-button-prev .icon
+{
+    display: block;
+
+    width: 18px;
+    height: 18px;
+
+    transition: fill .2s linear;
+
+    fill: #c0c7dd;
+}
+
+.swiper-button-next .icon
+{
+    transform: rotate(180deg);
+}
+
+.swiper-button-next:hover,
+.swiper-button-prev:hover
+{
+    border-color: #0142bd;
+}
+
+.swiper-button-next:hover .icon,
+.swiper-button-prev:hover .icon
+{
+    fill: #0142bd;
+}
+
+
+.gallery .swiper-button-next,
+.gallery .swiper-button-prev,
+.cost_includes .swiper-button-next,
+.cost_includes .swiper-button-prev
+{
+    top: -75px;
+}
+
+.reviews .swiper-button-prev,
+.gallery .swiper-button-prev,
+.cost_includes .swiper-button-prev
+{
+    right: 52px;
+    left: auto;
+}
+
+.reviews .swiper-button-next,
+.gallery .swiper-button-next,
+.cost_includes .swiper-button-next
+{
+    right: 0;
+    left: auto;
+}
+
+
+.airlines .swiper-button-next,
+.airlines .swiper-button-prev
+{
+    top: -75px;
+}
+
+.airlines .swiper-button-prev
+{
+    left: 0;
+}
+
+.airlines .swiper-button-next
+{
+    left: 52px;
+}
+
+
+
+.swiper-container-horizontal > .swiper-pagination-bullets,
+.swiper-pagination-custom,
+.swiper-pagination-fraction
+{
+    position: absolute;
+    bottom: 8px;
+    left: 50%;
+
+    display: flex;
+
+    width: auto;
+    height: 8px;
+
+    transform: translateX(-50%);
+    pointer-events: none;
+
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.swiper-pagination-bullet
+{
+    display: block;
+
+    width: 4px;
+    height: 4px;
+
+    transition: .2s linear;
+    pointer-events: auto;
+
+    opacity: 1;
+    border-radius: 50%;
+    background: #ced3df;
+}
+
+.swiper-pagination-bullet + .swiper-pagination-bullet
+{
+    margin-left: 16px !important;
+}
+
+.swiper-pagination-bullet:hover,
+.swiper-pagination-bullet.active
+{
+    background: #fff;
+    box-shadow: 0 0 0 2px #ced3df;
+}
+
+.swiper-container-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet
+{
+    margin: 0;
+}
+
+
+
+.swiper-container-fade .swiper-slide
+{
+    pointer-events: auto;
+}

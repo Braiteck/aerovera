@@ -1,0 +1,346 @@
+@media (max-width: 479px)
+{
+    /*-------------------
+        Global styles
+    -------------------*/
+    :root
+    {
+        --font_size: 14px;
+        --font_size_title: 24px;
+    }
+
+
+
+    /*------------
+        Header
+    ------------*/
+    .mob_header .logo
+    {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .mob_header .logo img
+    {
+        width: 42px;
+    }
+
+
+    .mob_header .phone
+    {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+
+    .mob_header .mob_menu_btn
+    {
+        margin-left: 14px;
+    }
+
+
+
+    /*----------
+        Tabs
+    ----------*/
+    .tabs button + button
+    {
+        margin-left: 24px;
+    }
+
+
+
+    /*----------------
+        Block head
+    ----------------*/
+    .block_head .title.small
+    {
+        font-size: 18px;
+        line-height: 22px;
+    }
+
+
+
+    /*------------------
+        Form elements
+    ------------------*/
+
+
+
+    /*-------------------
+        First section
+    -------------------*/
+    .first_section .titles .title
+    {
+        font-size: 30px;
+        line-height: 34px;
+    }
+
+    .first_section .titles .sub_title
+    {
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+
+    .first_section .companies .title
+    {
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+    .first_section .companies .items
+    {
+        column-gap: 0;
+        column-count: 1;
+    }
+
+
+
+    /*--------------
+        European
+    --------------*/
+    .european .companies .list
+    {
+        font-size: 13px;
+        line-height: 21px;
+
+        margin-top: 16px;
+
+        column-gap: 20px;
+        column-count: 2;
+    }
+
+
+    .european .items > *
+    {
+        width: 100%;
+    }
+
+
+    .european .items .desc
+    {
+        width: 100%;
+        margin-top: 16px;
+    }
+
+
+    .european .for_patients > *
+    {
+        width: calc(100% - 20px);
+    }
+
+
+
+    /*-------------------
+        Cost includes
+    -------------------*/
+    .cost_includes .items > *
+    {
+        max-width: calc(100% - 32px);
+    }
+
+
+    .cost_includes .destinations .item .from,
+    .cost_includes .destinations .item .to,
+    .cost_includes .destinations .item .aircraft
+    {
+        width: 100%;
+    }
+
+    .cost_includes .destinations .item .sep
+    {
+        margin: 8px 0;
+    }
+
+    .cost_includes .destinations .item .line
+    {
+        margin-top: 20px;
+    }
+
+    .cost_includes .destinations .item .aircraft
+    {
+        margin-top: 8px;
+    }
+
+
+
+    /*-----------------
+        Quick start
+    -----------------*/
+    .quick_start .links .icon + span
+    {
+        width: calc(100% - 66px);
+    }
+
+
+
+    /*---------
+        Faq
+    ---------*/
+    .faq .item .title
+    {
+        font-size: 15px;
+        line-height: 21px;
+    }
+
+
+
+    /*-------------------
+        Contacts info
+    -------------------*/
+    .contacts_info .info
+    {
+        padding: 20px;
+    }
+
+
+    .contacts_info .phone a
+    {
+        font-size: 28px;
+        line-height: 32px;
+    }
+
+
+
+    /*-------------------
+        Airlines head
+    -------------------*/
+    .airlines_head .institute .logo
+    {
+        width: 100%;
+        margin-bottom: 16px;
+    }
+
+    .airlines_head .institute .desc
+    {
+        width: 100%;
+    }
+
+
+    .airlines .row > *
+    {
+        width: calc(100% - 12px);
+    }
+
+
+
+    /*--------------
+        Aircraft
+    --------------*/
+    .aircraft .item .data
+    {
+        padding: 16px 20px;
+    }
+
+
+    .aircraft .item .info .name
+    {
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+
+
+    /*-------------
+        Reviews
+    -------------*/
+    .reviews .review .author
+    {
+        padding-right: 112px;
+    }
+
+
+
+    /*----------------
+        Order form
+    ----------------*/
+    .order_form .block_title
+    {
+        font-size: 19px;
+        line-height: 23px;
+    }
+
+
+    .order_form .times .item
+    {
+        width: 100%;
+    }
+
+
+    .order_form .times .item:nth-child(2)
+    {
+        margin-top: 32px;
+    }
+
+
+
+    /*------------
+        Footer
+    ------------*/
+    footer .menu
+    {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 16px;
+    }
+
+
+    footer .phone
+    {
+        margin-left: 0;
+    }
+
+    footer .order_btn
+    {
+        margin-left: auto;
+    }
+
+
+    footer .contacts
+    {
+        margin-top: 20px;
+    }
+
+
+
+    /*-----------
+        PopUp
+    -----------*/
+    .modal
+    {
+        padding: 40px 24px 28px;
+    }
+
+    .modal .block_title
+    {
+        font-size: 18px;
+        line-height: 22px;
+
+        margin-bottom: 25px;
+    }
+
+
+    .modal.order_form .block_title
+    {
+        font-size: 19px;
+        line-height: 23px;
+    }
+
+
+    .modal.order_form .times
+    {
+        width: calc(100% + 48px);
+        margin-right: -24px;
+        margin-left: -24px;
+        padding: 28px 24px;
+    }
+
+
+
+    #login_modal .or_register .title
+    {
+        font-size: 18px;
+        line-height: 22px;
+    }
+}

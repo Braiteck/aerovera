@@ -1,0 +1,1301 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+		<!-- Адаптирование страницы для мобильных устройств -->
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+		<!-- Запрет распознования номера телефона -->
+		<meta name="format-detection" content="telephone=no">
+		<meta name="SKYPE_TOOLBAR" content ="SKYPE_TOOLBAR_PARSER_COMPATIBLE">
+
+		<!-- Заголовок страницы -->
+		<title>Заголовок страницы</title>
+
+		<!-- Данное значение часто используют(использовали) поисковые системы -->
+		<meta name="description" content="">
+		<meta name="keywords" content="">
+
+		<!-- Традиционная иконка сайта, размер 16x16, прозрачность поддерживается. Рекомендуемый формат: .ico или .png -->
+		<link rel="shortcut icon" href="favicon.ico">
+
+		<!-- Изменение цвета панели моб. браузера -->
+		<meta name="msapplication-TileColor" content="#0142BD">
+		<meta name="theme-color" content="#0142BD">
+
+		<!-- Подключение шрифтов с гугла -->
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+		<!-- Подключение файлов стилей -->
+		<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+		<link rel="stylesheet" href="css/swiper.css">
+		<link rel="stylesheet" href="css/fancybox.css">
+		<link rel="stylesheet" href="css/styles.css">
+
+		<link rel="stylesheet" href="css/response_1439.css" media="print, (max-width: 1439px)">
+		<link rel="stylesheet" href="css/response_1279.css" media="print, (max-width: 1279px)">
+		<link rel="stylesheet" href="css/response_1023.css" media="print, (max-width: 1023px)">
+		<link rel="stylesheet" href="css/response_767.css" media="print, (max-width: 767px)">
+		<link rel="stylesheet" href="css/response_479.css" media="(max-width: 479px)">
+	</head>
+
+	<body>
+		<div class="wrap">
+			<div class="main">
+				<header class="absolute">
+					<button class="close"></button>
+
+					<div class="mob_scroll">
+						<div class="cont row">
+							<div class="logo">
+								<img src="images/logo.svg" alt="">
+								<div>AERO<br> VERA</div>
+							</div>
+
+							<div class="account">
+								<div class="link">Личный кабинет</div>
+								<div class="user">Гость</div>
+
+								<div class="dropdown">
+									<button class="close_btn"></button>
+
+									<div class="items">
+										<div><button>
+											<div class="icon">
+												<svg><use xlink:href="images/sprite.svg#ic_user"></use></svg>
+											</div>
+											<span><b>Гость</b> (демо-аккаунт)</span>
+										</button></div>
+
+										<div><button>
+											<div class="icon">
+												<svg><use xlink:href="images/sprite.svg#ic_user"></use></svg>
+											</div>
+											<span>Иван Иванов</span>
+										</button></div>
+
+										<div><button>
+											<div class="icon">
+												<svg><use xlink:href="images/sprite.svg#ic_user"></use></svg>
+											</div>
+											<span>Петр Петров</span>
+										</button></div>
+
+										<div><button class="add_btn">
+											<div class="icon"></div>
+											<span>Добавить аккаунт</span>
+										</button></div>
+									</div>
+
+									<button class="login_btn modal_link" data-content="#login_modal">Войти</button>
+								</div>
+							</div>
+
+							<nav class="menu">
+								<div class="item">
+									<a href="/" class="home">
+										<svg class="icon"><use xlink:href="images/sprite.svg#ic_home"></use></svg>
+									</a>
+								</div>
+
+								<div class="item">
+									<a href="/">БЫСТРЫЙ СТАРТ</a>
+								</div>
+
+								<div class="item">
+									<a href="/">Авиакомпании</a>
+								</div>
+
+								<div class="item">
+									<a href="/">Самолеты</a>
+								</div>
+
+								<div class="item">
+									<a href="/">Вопросы/ответы</a>
+								</div>
+
+								<div class="item">
+									<a class="active">Галерея</a>
+								</div>
+							</nav>
+
+							<div class="phone">
+								<a href="tel:+79871234567">+7 987 123-45-67</a>
+							</div>
+
+							<button class="order_btn modal_link" data-content="#order_modal">
+								<span>Направить<br> запрос</span>
+								<span class="icon">AV</span>
+							</button>
+
+							<div class="contacts">
+								<div class="whatsapp">
+									<svg class="icon"><use xlink:href="images/sprite.svg#ic_whatsapp"></use></svg>
+									<a href="/">WhatsApp</a>
+								</div>
+
+								<div class="telegram">
+									<svg class="icon"><use xlink:href="images/sprite.svg#ic_telegram"></use></svg>
+									<a href="/">Telegram</a>
+								</div>
+
+								<div class="viber">
+									<svg class="icon"><use xlink:href="images/sprite.svg#ic_viber"></use></svg>
+									<a href="/">Viber</a>
+								</div>
+
+								<div class="email">
+									<svg class="icon"><use xlink:href="images/sprite.svg#ic_email"></use></svg>
+									<a href="mailto:info@air-ambulance.com">info@air-ambulance.com</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</header>
+
+
+				<section class="mob_header absolute">
+					<div class="cont">
+						<div class="logo">
+							<img src="images/logo.svg" alt="">
+							<div>AERO<br> VERA</div>
+						</div>
+
+						<div class="account">
+							<div class="link"><a href="/">Личный кабинет</a></div>
+							<div class="user">Гость</div>
+
+							<div class="dropdown">
+								<button class="close_btn"></button>
+
+								<div class="items">
+									<div><button>
+										<div class="icon">
+											<svg><use xlink:href="images/sprite.svg#ic_user"></use></svg>
+										</div>
+										<span><b>Гость</b> (демо-аккаунт)</span>
+									</button></div>
+
+									<div><button>
+										<div class="icon">
+											<svg><use xlink:href="images/sprite.svg#ic_user"></use></svg>
+										</div>
+										<span>Иван Иванов</span>
+									</button></div>
+
+									<div><button>
+										<div class="icon">
+											<svg><use xlink:href="images/sprite.svg#ic_user"></use></svg>
+										</div>
+										<span>Петр Петров</span>
+									</button></div>
+
+									<div><button class="add_btn">
+										<div class="icon"></div>
+										<span>Добавить аккаунт</span>
+									</button></div>
+								</div>
+
+								<button class="login_btn modal_link" data-content="#login_modal">Войти</button>
+							</div>
+						</div>
+
+						<div class="phone">
+							<a href="tel:+79871234567">+7 987 123-45-67</a>
+						</div>
+
+						<button class="order_btn modal_link" data-content="#order_modal">
+							<span>Направить<br> запрос</span>
+							<span class="icon">AV</span>
+						</button>
+
+						<button class="mob_menu_btn">
+							<span></span>
+						</button>
+					</div>
+				</section>
+
+
+				<section class="first_section">
+					<div class="cont">
+						<div class="titles">
+							<div class="title">Глобальная медицинская авиация</div>
+
+							<div class="sub_title">Специализированные самолеты на всех континентах</div>
+						</div>
+
+
+						<div class="row">
+							<div class="companies">
+								<div class="title">40+ авиакомпаний сертифицированных EURAMI</div>
+
+								<div class="items">
+									<div>Европа....................................20+</div>
+									<div>Северная Америка.......14</div>
+									<div>Южная Америка.............4</div>
+									<div>Азия.....................4</div>
+									<div>Африка..............6</div>
+									<div>Австралия........1</div>
+								</div>
+							</div>
+
+							<div class="directions">
+								<div class="items">
+									<div class="item">
+										<div>Российские региональные клиники</div>
+										<span class="sep">
+											<svg><use xlink:href="images/sprite.svg#ic_slider_arrow"></use></svg>
+											<svg><use xlink:href="images/sprite.svg#ic_slider_arrow"></use></svg>
+										</span>
+										<div>Московские клиники</div>
+									</div>
+
+									<div class="item">
+										<div>Российские клиники</div>
+										<span class="sep">
+											<svg><use xlink:href="images/sprite.svg#ic_slider_arrow"></use></svg>
+											<svg><use xlink:href="images/sprite.svg#ic_slider_arrow"></use></svg>
+										</span>
+										<div>Зарубежные клиники</div>
+									</div>
+								</div>
+
+								<div class="title">Дальность полета без ограничений</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="bg lozad" data-background-image="images/bg_first_section.jpg"></div>
+				</section>
+
+
+				<section class="european">
+					<div class="cont">
+						<div class="top">
+							<div class="block_head">
+								<div class="title">Европейская медицинская авиация</div>
+
+								<img data-src="images/bg_european2.svg" alt="" class="bg lozad">
+							</div>
+
+
+							<div class="companies">
+								<div class="val">20+</div>
+								<div class="name">авиакомпаний</div>
+
+								<div class="list">
+									<div>Австрия — 1</div>
+									<div>Великобритания — 4</div>
+									<div>Германия — 9</div>
+									<div>Дания — 2</div>
+									<div>Италия — 2</div>
+									<div>Норвегия — 2</div>
+									<div>Франция — 2</div>
+									<div>Швейцария — 1</div>
+								</div>
+							</div>
+
+
+							<div class="items">
+								<div class="item">
+									<div class="val">2 часа</div>
+
+									<div class="name">Самолет готов к вылету через 2 часа после поступления оплаты в авиакомпанию</div>
+								</div>
+
+								<div class="item">
+									<div class="val">
+										<small>EURAMI</small>
+										<img src="images/european_items_logo.png" alt="">
+									</div>
+
+									<div class="name">Авиакомпании сертифицированы European Aero-Medical Institute (Европейский Аэро-Медицинский Институт)</div>
+								</div>
+
+								<div class="item big">
+									<div>
+										<div class="val">60+</div>
+										<div class="name">медицинских<br> самолетов</div>
+									</div>
+
+									<div class="desc">
+										<div>Самолеты оборудованы сертифицированными <a href="/">медицинскими модулями</a></div>
+
+										<div><b>Наличие медицинского модуля в самолете — базовое условие безопасности и успешности выполнения в полете медицинских процедур</b></div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+
+						<div class="block_head empty">
+							<div class="vertical_title">Возможности авиакомпаний</div>
+						</div>
+
+
+						<div class="for_patients">
+							<div class="item">
+								<div class="thumb">
+									<img data-src="images/tmp/for_patients_thumb.jpg" alt="" class="lozad">
+								</div>
+
+								<div class="info">
+									<div class="name">Носилочным пацентам</div>
+
+									<div class="features">
+										<div>Кровать с фиксацией</div>
+										<div>Капельницы, инъекции</div>
+										<div>Приборный мониторинг</div>
+									</div>
+								</div>
+							</div>
+
+							<div class="item">
+								<div class="thumb">
+									<img data-src="images/tmp/for_patients_thumb2.jpg" alt="" class="lozad">
+								</div>
+
+								<div class="info">
+									<div class="name">Реанимационным пациентам</div>
+
+									<div class="features">
+										<div>Искусственная вентиляция легких, кислород</div>
+										<div>Дефибриллятор</div>
+										<div>Обширный приборный мониторинг</div>
+									</div>
+								</div>
+							</div>
+
+							<div class="item">
+								<div class="thumb">
+									<img data-src="images/tmp/for_patients_thumb3.jpg" alt="" class="lozad">
+								</div>
+
+								<div class="info">
+									<div class="name">Неонатальным пациентам</div>
+
+									<div class="features">
+										<div>Кювез, регулирование температуры и влажности</div>
+										<div>Кислород, капельницы</div>
+										<div>Приборный мониторинг</div>
+									</div>
+								</div>
+							</div>
+
+							<div class="item">
+								<div class="thumb">
+									<img data-src="images/tmp/for_patients_thumb4.jpg" alt="" class="lozad">
+								</div>
+
+								<div class="info">
+									<div class="name">Инфекционным пациентам</div>
+
+									<div class="features">
+										<div>Изолирующий бокс</div>
+										<div>Искусственная вентиляция легких, кислород</div>
+										<div>Капельницы, инъекции</div>
+										<div>Приборный мониторинг</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<img data-src="images/bg_european.svg" alt="" class="bg lozad">
+				</section>
+
+
+				<section class="order_form">
+					<div class="cont">
+						<div class="block_title">Запрос медицинской перевозки</div>
+
+						<div class="block_desc">График обработки запросов (время московское)</div>
+
+						<div class="times">
+							<div class="item">
+								<div class="name">после 8.00</div>
+
+								<div class="line blue">
+									<div class="time">06:30</div>
+									<div class="time right">06:30</div>
+								</div>
+
+								<div class="desc">направьте запрос через сайт<br> и позвоните по телефону</div>
+							</div>
+
+							<div class="item">
+								<div class="name">после 2х часов</div>
+
+								<div class="line"></div>
+
+								<div class="desc">достаточно направить<br> запрос через сайт</div>
+							</div>
+
+							<div class="item">
+								<div class="name">до 00.30</div>
+
+								<div class="line blue">
+									<div class="time">06:30</div>
+									<div class="time right">06:30</div>
+								</div>
+
+								<div class="desc">направьте запрос через сайт<br> и позвоните по телефону</div>
+							</div>
+
+							<div class="item">
+								<div class="name">после 8.00</div>
+
+								<div class="line">
+									<div class="time right">06:30</div>
+								</div>
+
+								<div class="desc">достаточно направить<br> запрос через сайт</div>
+							</div>
+						</div>
+
+						<form action="" class="form">
+							<div class="cols">
+								<div class="col">
+									<div class="title">Контактные данные</div>
+
+									<div class="line">
+										<div class="field">
+											<input type="text" name="" value="" class="input" placeholder="Текст">
+										</div>
+									</div>
+
+									<div class="line">
+										<div class="field">
+											<input type="tel" name="" value="" class="input" placeholder="Телефон">
+										</div>
+									</div>
+
+									<div class="line">
+										<div class="field">
+											<input type="email" name="" value="" class="input" placeholder="E-mail">
+										</div>
+									</div>
+								</div>
+
+
+								<div class="col">
+									<div class="title">Маршрут</div>
+
+									<div class="line">
+										<div class="field">
+											<input type="text" name="" value="" class="input" placeholder="Откуда">
+										</div>
+									</div>
+
+									<div class="line">
+										<div class="field">
+											<input type="text" name="" value="" class="input" placeholder="Куда">
+										</div>
+									</div>
+
+									<div class="line">
+										<div class="field">
+											<input type="text" name="" value="" class="input date" placeholder="Дата">
+										</div>
+									</div>
+								</div>
+							</div>
+
+
+							<div class="cols">
+								<div class="col">
+									<div class="submit">
+										<button type="submit" class="submit_btn">
+											<span class="icon">AV</span>
+											<span>Направить запрос на подбор перевозчика</span>
+										</button>
+									</div>
+								</div>
+
+
+								<div class="col">
+									<div class="agree">Передавая свои данные, вы даете согласие на <a href="/" target="_blank">обработку персональных данных</a></div>
+								</div>
+							</div>
+						</form>
+					</div>
+				</section>
+
+
+				<section class="direct_access block">
+					<div class="cont row">
+						<div class="block_head">
+							<div class="title">Прямой доступ к услугам глобальных медицинских авиационных перевозчиков</div>
+
+							<div class="vertical_title">Принципы работы</div>
+						</div>
+
+						<div class="items">
+							<div class="item">
+								<div class="name">Высшие стандарты безопасности</div>
+
+								<div class="desc">
+									<p>Стандарты, которые устанавливает EURAMI, одни их самых высоких в мире</p>
+
+									<p>Европейский институт аэромедицины основан в 1992, получил мировое признание, является лидером в области аэромедицинской сертификации</p>
+								</div>
+							</div>
+
+							<div class="item">
+								<div class="name">Любые маршруты</div>
+
+								<div class="desc">
+									<p>Из аэропортов России — в любой  аэропорт мира</p>
+
+									<p>Из любого аэропорта мира — в аэропорты России</p>
+
+									<p>Из Российских регионов — в Москву</p>
+
+									<p>Из Москвы — в Российские регионы</p>
+								</div>
+							</div>
+
+							<div class="item">
+								<div class="name">Прямые цены</div>
+
+								<div class="desc">
+									<p>Представляем Вам предложения глобальных медицинских перевозчиков</p>
+
+									<p>Помогаем выбрать оптимальный вариант перевозки по справедливой цене</p>
+
+									<p>Оплата — по цене перевозчика, без надбавок посредников</p>
+								</div>
+							</div>
+
+							<div class="item">
+								<div class="name">Сертифицированные медицинские модули<br> в самолетах</div>
+
+								<div class="desc">
+									<p>Самолеты оборудованы медицинскими модулями, позволяющими подключить к ним любое оборудование, необходимое для проведения медицинских процедур в полете</p>
+
+									<p><a href="/">Подробнее</a></p>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<img data-src="images/bg_direct_access.svg" alt="" class="bg lozad">
+				</section>
+
+
+				<section class="cost_includes block">
+					<div class="cont">
+						<div class="block_head">
+							<div class="title small">Стоимость перевозки включает</div>
+
+							<div class="vertical_title">Примеры стоимости</div>
+						</div>
+
+						<div class="items">
+							<div>Сертифицированный<br> медицинский самолет</div>
+							<div>Сертифицированный<br> медицинский модуль</div>
+							<div>Врачебная<br> бригада</div>
+							<div>Медицинское<br> оборудование</div>
+						</div>
+
+
+						<div class="destinations swiper-container">
+							<div class="swiper-wrapper">
+								<div class="slide swiper-slide">
+									<div class="item">
+										<div class="from">Москва</div>
+
+										<div class="sep">
+											<svg class="icon"><use xlink:href="images/sprite.svg#ic_slider_arrow"></use></svg>
+										</div>
+
+										<div class="to">Дюссельдорф</div>
+
+										<div class="line"></div>
+
+										<div class="price">€, 21 700</div>
+
+										<div class="aircraft">Самолет Challenger 850</div>
+									</div>
+								</div>
+
+								<div class="slide swiper-slide">
+									<div class="item">
+										<div class="from">Москва</div>
+
+										<div class="sep">
+											<svg class="icon"><use xlink:href="images/sprite.svg#ic_slider_arrow"></use></svg>
+										</div>
+
+										<div class="to">Берлин</div>
+
+										<div class="line"></div>
+
+										<div class="price">€, 24 700</div>
+
+										<div class="aircraft">Самолет Learjet 60</div>
+									</div>
+								</div>
+
+								<div class="slide swiper-slide">
+									<div class="item">
+										<div class="from">Москва</div>
+
+										<div class="sep">
+											<svg class="icon"><use xlink:href="images/sprite.svg#ic_slider_arrow"></use></svg>
+										</div>
+
+										<div class="to">Люксембург</div>
+
+										<div class="line"></div>
+
+										<div class="price">€, 19 600</div>
+
+										<div class="aircraft">Самолет Global Express</div>
+									</div>
+								</div>
+							</div>
+
+							<div class="swiper-button-prev">
+								<svg class="icon"><use xlink:href="images/sprite.svg#ic_slider_arrow"></use></svg>
+							</div>
+
+							<div class="swiper-button-next">
+								<svg class="icon"><use xlink:href="images/sprite.svg#ic_slider_arrow"></use></svg>
+							</div>
+						</div>
+
+						<div class="exp">Собственное исследование рынка медицинской авиации за предыдущие 6 месяцев</div>
+					</div>
+				</section>
+
+
+				<section class="gallery block">
+					<div class="cont">
+						<div class="block_head with_btn">
+							<div class="title small">Авиакомпании представляют специализированные самолеты</div>
+
+							<div class="vertical_title">Флот</div>
+						</div>
+
+						<div class="swiper-container">
+							<div class="swiper-wrapper">
+								<div class="slide swiper-slide">
+									<div class="img">
+										<img data-src="images/tmp/gallery_slider_img.jpg" alt="" class="lozad">
+									</div>
+
+									<div class="source">
+										Источник фото <a href="https://www.ace-ambulance.com" target="_blank" rel="noopener nofollow">ace-ambulance.com</a>
+									</div>
+								</div>
+
+								<div class="slide swiper-slide">
+									<div class="img">
+										<img data-src="images/tmp/gallery_slider_img.jpg" alt="" class="lozad">
+									</div>
+
+									<div class="source">
+										Источник фото <a href="https://www.ace-ambulance.com" target="_blank" rel="noopener nofollow">ace-ambulance.com</a>
+									</div>
+								</div>
+
+								<div class="slide swiper-slide">
+									<div class="img">
+										<img data-src="images/tmp/gallery_slider_img.jpg" alt="" class="lozad">
+									</div>
+
+									<div class="source">
+										Источник фото <a href="https://www.ace-ambulance.com" target="_blank" rel="noopener nofollow">ace-ambulance.com</a>
+									</div>
+								</div>
+							</div>
+
+							<div class="swiper-button-prev">
+								<svg class="icon"><use xlink:href="images/sprite.svg#ic_slider_arrow"></use></svg>
+							</div>
+
+							<div class="swiper-button-next">
+								<svg class="icon"><use xlink:href="images/sprite.svg#ic_slider_arrow"></use></svg>
+							</div>
+						</div>
+					</div>
+				</section>
+
+
+				<section class="why_we block">
+					<div class="cont row">
+						<div class="block_head">
+							<div class="title">Почему эффективно подбор перевозчика поручить нам?</div>
+
+							<div class="vertical_title">Наши преимущества</div>
+
+							<div class="links">
+								<div>
+									<button class="link modal_link" data-content="#order_modal">
+										<div class="icon icon1">
+											<svg><use xlink:href="images/sprite.svg#ic_quick_start_links1"></use></svg>
+										</div>
+										<span>Получить предложения от перевозчиков через нашу службу планирования</span>
+									</button>
+								</div>
+
+								<div>
+									<a href="/" class="link">
+										<div class="icon icon2 light">
+											<svg><use xlink:href="images/sprite.svg#ic_quick_start_links2"></use></svg>
+										</div>
+										<span>Начать самостоятельный подбор по каталогу перевозчиков</span>
+									</a>
+								</div>
+							</div>
+						</div>
+
+
+						<div class="items">
+							<div class="item">
+								<div class="name">Раскрываем статьи расходов и цены</div>
+
+								<div class="desc">
+									<p>Предложения авиакомпаний открыты для Вас и сопровождаются нашими подробными разъяснениями</p>
+
+									<p>Глобальный рынок медицинской авиации конкурентный — наша прозрачность позволяет Вам выбрать наилучшее предложение по справедливой цене</p>
+								</div>
+							</div>
+
+							<div class="item">
+								<div class="name">Понимаем профессиональный язык</div>
+
+								<div class="desc">
+									<p>При переговорах и оформлении документов используется терминология на стыке медицины, авиации и юриспруденции.</p>
+
+									<p>Корректное применение понятийного аппарата позволяет нам быстро организовывать безопасную перевозку по справедливой цене</p>
+								</div>
+							</div>
+
+							<div class="item">
+								<div class="name">Уделяем внимание деталям</div>
+
+								<div class="desc">
+									<p>Авиакомпании выполняют множество рейсов — им сложно консультировать отдельных клиентов для скрупулезного учета особенностей их ситуации</p>
+
+									<p>Для нас каждый перевозимый — высший приоритет</p>
+								</div>
+							</div>
+
+							<div class="item">
+								<div class="name">Предвидим сложности и обходим их</div>
+
+								<div class="desc">
+									<p>Большинство сложностей вызывает неправильное определение типа самолета, графика перевозки, условий обслуживания в аэропортах, мест и времени пересечения границ</p>
+
+									<p>Обширный практический опыт оберегает нас от ошибок</p>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<img data-src="images/bg_why_we.svg" alt="" class="bg lozad">
+				</section>
+
+
+				<section class="reviews block">
+					<div class="cont">
+						<div class="block_head">
+							<div class="title">Врачи о современных медицинских перевозках</div>
+
+							<div class="vertical_title">Наши преимущества</div>
+						</div>
+
+
+						<div class="row">
+							<div class="swiper-container">
+								<div class="swiper-wrapper">
+									<div class="slide swiper-slide">
+										<div class="review">
+											<div class="author">
+												<div class="name">Эксперт аэромедицины Карл Штейнхофф</div>
+
+												<div class="post">Врач интенсивной терапии, доктор медицины Гейдельбергского Университета</div>
+											</div>
+
+											<a href="https://www.youtube.com/watch?v=4QKc7QccKE8" data-fancybox class="video_link">
+												<img data-src="images/tmp/review_video_thumb.jpg" alt="" class="lozad">
+											</a>
+										</div>
+									</div>
+
+									<div class="slide swiper-slide">
+										<div class="review">
+											<div class="author">
+												<div class="name">Эксперт аэромедицины Карл Штейнхофф</div>
+
+												<div class="post">Врач интенсивной терапии, доктор медицины Гейдельбергского Университета</div>
+											</div>
+
+											<a href="https://www.youtube.com/watch?v=4QKc7QccKE8" data-fancybox class="video_link">
+												<img data-src="images/tmp/review_video_thumb.jpg" alt="" class="lozad">
+											</a>
+										</div>
+									</div>
+
+									<div class="slide swiper-slide">
+										<div class="review">
+											<div class="author">
+												<div class="name">Эксперт аэромедицины Карл Штейнхофф</div>
+
+												<div class="post">Врач интенсивной терапии, доктор медицины Гейдельбергского Университета</div>
+											</div>
+
+											<a href="https://www.youtube.com/watch?v=4QKc7QccKE8" data-fancybox class="video_link">
+												<img data-src="images/tmp/review_video_thumb.jpg" alt="" class="lozad">
+											</a>
+										</div>
+									</div>
+								</div>
+
+								<div class="swiper-button-prev">
+									<svg class="icon"><use xlink:href="images/sprite.svg#ic_slider_arrow"></use></svg>
+								</div>
+
+								<div class="swiper-button-next">
+									<svg class="icon"><use xlink:href="images/sprite.svg#ic_slider_arrow"></use></svg>
+								</div>
+							</div>
+
+
+							<div class="swiper-container">
+								<div class="swiper-wrapper">
+									<div class="slide swiper-slide">
+										<div class="review">
+											<div class="author">
+												<div class="name">Александр Александровский</div>
+
+												<div class="post">Врач МЧС, кандидат медицинских наук, хирург-травматолог</div>
+											</div>
+
+											<div class="text">
+												<p>Медицинская авиация возникла в период после Первой мировой войны. Уже в 1930-е годы в СССР проектировались и строились медицинские разновидности самолётов (Ш-2, К-3 и др.), были выработаны основные требования к оснащению воздушного судна и его лётным качествам. Во время Второй мировой войны медицинская авиация получила повсеместное распространение и использовалась многими воюющими сторонами, хотя и в небольших масштабах.</p>
+
+												<p>Пик развития медицинской авиации пришёлся на вторую половину XX века. В это время широкое распространение получили вертолёты, а значит появилась возможность посадки воздушного судна там, где ранее это не представлялось возможным/ Во время Второй мировой войны медицинская авиация получила повсеместное распространение и использовалась многими воюющими сторонами.</p>
+											</div>
+										</div>
+									</div>
+
+									<div class="slide swiper-slide">
+										<div class="review">
+											<div class="author">
+												<div class="name">Александр Александровский</div>
+
+												<div class="post">Врач МЧС, кандидат медицинских наук, хирург-травматолог</div>
+											</div>
+
+											<div class="text">
+												<p>Медицинская авиация возникла в период после Первой мировой войны. Уже в 1930-е годы в СССР проектировались и строились медицинские разновидности самолётов (Ш-2, К-3 и др.), были выработаны основные требования к оснащению воздушного судна и его лётным качествам. Во время Второй мировой войны медицинская авиация получила повсеместное распространение и использовалась многими воюющими сторонами, хотя и в небольших масштабах.</p>
+
+												<p>Пик развития медицинской авиации пришёлся на вторую половину XX века. В это время широкое распространение получили вертолёты, а значит появилась возможность посадки воздушного судна там, где ранее это не представлялось возможным/ Во время Второй мировой войны медицинская авиация получила повсеместное распространение и использовалась многими воюющими сторонами.</p>
+											</div>
+										</div>
+									</div>
+
+									<div class="slide swiper-slide">
+										<div class="review">
+											<div class="author">
+												<div class="name">Александр Александровский</div>
+
+												<div class="post">Врач МЧС, кандидат медицинских наук, хирург-травматолог</div>
+											</div>
+
+											<div class="text">
+												<p>Медицинская авиация возникла в период после Первой мировой войны. Уже в 1930-е годы в СССР проектировались и строились медицинские разновидности самолётов (Ш-2, К-3 и др.), были выработаны основные требования к оснащению воздушного судна и его лётным качествам. Во время Второй мировой войны медицинская авиация получила повсеместное распространение и использовалась многими воюющими сторонами, хотя и в небольших масштабах.</p>
+
+												<p>Пик развития медицинской авиации пришёлся на вторую половину XX века. В это время широкое распространение получили вертолёты, а значит появилась возможность посадки воздушного судна там, где ранее это не представлялось возможным/ Во время Второй мировой войны медицинская авиация получила повсеместное распространение и использовалась многими воюющими сторонами.</p>
+											</div>
+										</div>
+									</div>
+								</div>
+
+								<div class="swiper-button-prev">
+									<svg class="icon"><use xlink:href="images/sprite.svg#ic_slider_arrow"></use></svg>
+								</div>
+
+								<div class="swiper-button-next">
+									<svg class="icon"><use xlink:href="images/sprite.svg#ic_slider_arrow"></use></svg>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<img data-src="images/bg_reviews.svg" alt="" class="bg lozad">
+					<img data-src="images/bg_reviews2.svg" alt="" class="bg2 lozad">
+				</section>
+
+
+				<section class="airlines block">
+					<div class="cont">
+						<div class="block_head with_btn">
+							<div class="title small">40+ глобальных медицинских авиаперевозчиков</div>
+
+							<div class="vertical_title">Авиакомпании</div>
+
+							<div class="desc">Представляем информацию для самостоятельного анализа</div>
+
+							<button class="consult_btn modal_link" data-content="#consult_modal">
+								<span class="icon">AV</span>
+								<span>Получить консультацию</span>
+							</button>
+						</div>
+
+
+						<div class="slider_wrap">
+							<div class="all_link">
+								<a href="/">Все авиакомпании</a>
+							</div>
+
+							<div class="swiper-container">
+								<div class="swiper-wrapper">
+									<div class="slide swiper-slide">
+										<div class="company">
+											<div class="logo">
+												<img data-src="images/tmp/company_logo9.png" alt="" class="lozad">
+											</div>
+
+											<div class="name">Tyrol Air Ambulance</div>
+
+											<div class="country">Австрия</div>
+
+											<a href="/" class="details_link">Подробнее</a>
+										</div>
+									</div>
+
+									<div class="slide swiper-slide">
+										<div class="company">
+											<div class="logo">
+												<img data-src="images/tmp/company_logo10.png" alt="" class="lozad">
+											</div>
+
+											<div class="name">Amref Flying Doctors</div>
+
+											<div class="country">Германия</div>
+
+											<a href="/" class="details_link">Подробнее</a>
+										</div>
+									</div>
+
+									<div class="slide swiper-slide">
+										<div class="company">
+											<div class="logo">
+												<img data-src="images/tmp/company_logo12.png" alt="" class="lozad">
+											</div>
+
+											<div class="name">European Air Ambulance</div>
+
+											<div class="country">Австрия</div>
+
+											<a href="/" class="details_link">Подробнее</a>
+										</div>
+									</div>
+								</div>
+
+								<div class="swiper-button-prev">
+									<svg class="icon"><use xlink:href="images/sprite.svg#ic_slider_arrow"></use></svg>
+								</div>
+
+								<div class="swiper-button-next">
+									<svg class="icon"><use xlink:href="images/sprite.svg#ic_slider_arrow"></use></svg>
+								</div>
+							</div>
+
+							<div class="question">
+								<svg class="icon"><use xlink:href="images/sprite.svg#ic_question"></use></svg>
+								<p>В чем разница между перевозкой пациента в обычном самолете и в самолете, оборудованном сертифицированным медицинским модулем?</p>
+							</div>
+						</div>
+					</div>
+				</section>
+			</div>
+
+
+			<footer>
+				<div class="cont row">
+					<div class="menu">
+						<div class="item">
+							<a href="/">Контакты</a>
+						</div>
+					</div>
+
+					<div class="contacts">
+						<div class="whatsapp">
+							<svg class="icon"><use xlink:href="images/sprite.svg#ic_whatsapp"></use></svg>
+							<a href="/">WhatsApp</a>
+						</div>
+
+						<div class="telegram">
+							<svg class="icon"><use xlink:href="images/sprite.svg#ic_telegram"></use></svg>
+							<a href="/">Telegram</a>
+						</div>
+
+						<div class="viber">
+							<svg class="icon"><use xlink:href="images/sprite.svg#ic_viber"></use></svg>
+							<a href="/">Viber</a>
+						</div>
+
+						<div class="email">
+							<svg class="icon"><use xlink:href="images/sprite.svg#ic_email"></use></svg>
+							<a href="mailto:info@air-ambulance.com">info@air-ambulance.com</a>
+						</div>
+					</div>
+
+					<div class="phone">
+						<a href="tel:+79871234567">+7 987 123-45-67</a>
+					</div>
+
+					<button class="order_btn modal_link" data-content="#order_modal">
+						<span>Направить<br> запрос</span>
+						<span class="icon">AV</span>
+					</button>
+				</div>
+
+
+				<div class="cont row">
+					<div class="copyright">&copy; 2020  AERO VERA AIR AMBULANCE</div>
+
+					<div class="creator">
+						<a href="/" target="_blank" rel="noopener">Создание сайта - Белый кот</a>
+					</div>
+				</div>
+			</footer>
+
+
+			<div class="overlay"></div>
+		</div>
+
+
+		<div class="supports_error">
+			Ваш браузер устарел рекомендуем обновить его до последней версии<br> или использовать другой более современный.
+		</div>
+
+
+		<section class="modal order_form" id="order_modal">
+			<div class="block_title">Запрос медицинской перевозки</div>
+
+			<div class="block_desc">График обработки запросов (время московское)</div>
+
+			<div class="times">
+				<div class="item">
+					<div class="name">после 8.00</div>
+
+					<div class="line blue">
+						<div class="time">06:30</div>
+						<div class="time right">06:30</div>
+					</div>
+
+					<div class="desc">направьте запрос через сайт<br> и позвоните по телефону</div>
+				</div>
+
+				<div class="item">
+					<div class="name">после 2х часов</div>
+
+					<div class="line"></div>
+
+					<div class="desc">достаточно направить<br> запрос через сайт</div>
+				</div>
+
+				<div class="item">
+					<div class="name">до 00.30</div>
+
+					<div class="line blue">
+						<div class="time">06:30</div>
+						<div class="time right">06:30</div>
+					</div>
+
+					<div class="desc">направьте запрос через сайт<br> и позвоните по телефону</div>
+				</div>
+
+				<div class="item">
+					<div class="name">после 8.00</div>
+
+					<div class="line">
+						<div class="time right">06:30</div>
+					</div>
+
+					<div class="desc">достаточно направить<br> запрос через сайт</div>
+				</div>
+			</div>
+
+			<form action="" class="form">
+				<div class="cols">
+					<div class="col">
+						<div class="title">Контактные данные</div>
+
+						<div class="line">
+							<div class="field">
+								<input type="text" name="" value="" class="input" placeholder="Текст">
+							</div>
+						</div>
+
+						<div class="line">
+							<div class="field">
+								<input type="tel" name="" value="" class="input" placeholder="Телефон">
+							</div>
+						</div>
+
+						<div class="line">
+							<div class="field">
+								<input type="email" name="" value="" class="input" placeholder="E-mail">
+							</div>
+						</div>
+					</div>
+
+
+					<div class="col">
+						<div class="title">Маршрут</div>
+
+						<div class="line">
+							<div class="field">
+								<input type="text" name="" value="" class="input" placeholder="Откуда">
+							</div>
+						</div>
+
+						<div class="line">
+							<div class="field">
+								<input type="text" name="" value="" class="input" placeholder="Куда">
+							</div>
+						</div>
+
+						<div class="line">
+							<div class="field">
+								<input type="text" name="" value="" class="input date" placeholder="Дата">
+							</div>
+						</div>
+					</div>
+				</div>
+
+
+				<div class="cols">
+					<div class="col">
+						<div class="submit">
+							<button type="submit" class="submit_btn">
+								<span class="icon">AV</span>
+								<span>Направить запрос на подбор перевозчика</span>
+							</button>
+						</div>
+					</div>
+
+
+					<div class="col">
+						<div class="agree">Передавая свои данные, вы даете согласие на <a href="/" target="_blank">обработку персональных данных</a></div>
+					</div>
+				</div>
+			</form>
+		</section>
+
+
+		<section class="modal" id="consult_modal">
+			<div class="block_title">Получение предварительной консультации</div>
+
+			<div class="block_desc">Опишите кратко вашу ситуацию и отправьте нам запрос. Мы свяжемся с Вами по телефону или email, чтобы ответить на вопросы</div>
+
+			<form action="" class="form">
+				<div class="cols">
+					<div class="col">
+						<div class="title">Контактные данные</div>
+
+						<div class="line">
+							<div class="field">
+								<input type="text" name="" value="" class="input" placeholder="Текст">
+							</div>
+						</div>
+
+						<div class="line">
+							<div class="field">
+								<input type="tel" name="" value="" class="input" placeholder="Телефон">
+							</div>
+						</div>
+
+						<div class="line">
+							<div class="field">
+								<input type="email" name="" value="" class="input" placeholder="E-mail">
+							</div>
+						</div>
+					</div>
+
+
+					<div class="col">
+						<div class="title">Опишите вашу ситуацию</div>
+
+						<div class="line">
+							<div class="field">
+								<textarea name="" placeholder="Краткое описание"></textarea>
+							</div>
+						</div>
+					</div>
+				</div>
+
+
+				<div class="cols">
+					<div class="col">
+						<div class="submit">
+							<button type="submit" class="submit_btn">
+								<span class="icon">AV</span>
+								<span>Получить консультацию</span>
+							</button>
+						</div>
+					</div>
+
+
+					<div class="col">
+						<div class="agree">Передавая свои данные, вы даете согласие на <a href="/" target="_blank">обработку персональных данных</a></div>
+					</div>
+				</div>
+			</form>
+		</section>
+
+
+		<section class="modal" id="login_modal">
+			<div class="block_title">Войдите, чтобы получить<br> доступ к этому разделу</div>
+
+			<form action="" class="form">
+				<div class="line">
+					<div class="field">
+						<input type="text" name="" value="" class="input" placeholder="Логин">
+					</div>
+				</div>
+
+				<div class="line">
+					<div class="field">
+						<input type="password" name="" value="" class="input" placeholder="Пароль">
+					</div>
+				</div>
+
+				<div class="submit">
+					<button type="submit" class="submit_btn">
+						<span class="icon">AV</span>
+						<span>Войти</span>
+					</button>
+				</div>
+			</form>
+
+			<div class="or_register">
+				<div class="title">Нет аккаунта? Зарегистрируйтесь!</div>
+
+				<button type="button" class="btn">
+					<span class="icon">AV</span>
+					<span>Отправить запрос на регистрацию</span>
+				</button>
+			</div>
+		</section>
+
+
+		<!-- Подключение javascript файлов -->
+		<script src="js/jquery-3.5.0.min.js"></script>
+		<script src="js/lozad.min.js"></script>
+		<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+		<script src="js/inputmask.min.js"></script>
+		<script src="js/fancybox.min.js"></script>
+		<script src="js/functions.js"></script>
+		<script src="js/scripts.js"></script>
+	</body>
+</html>

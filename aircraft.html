@@ -1,0 +1,823 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+		<!-- Адаптирование страницы для мобильных устройств -->
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+		<!-- Запрет распознования номера телефона -->
+		<meta name="format-detection" content="telephone=no">
+		<meta name="SKYPE_TOOLBAR" content ="SKYPE_TOOLBAR_PARSER_COMPATIBLE">
+
+		<!-- Заголовок страницы -->
+		<title>Заголовок страницы</title>
+
+		<!-- Данное значение часто используют(использовали) поисковые системы -->
+		<meta name="description" content="">
+		<meta name="keywords" content="">
+
+		<!-- Традиционная иконка сайта, размер 16x16, прозрачность поддерживается. Рекомендуемый формат: .ico или .png -->
+		<link rel="shortcut icon" href="favicon.ico">
+
+		<!-- Изменение цвета панели моб. браузера -->
+		<meta name="msapplication-TileColor" content="#0142BD">
+		<meta name="theme-color" content="#0142BD">
+
+		<!-- Подключение шрифтов с гугла -->
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+		<!-- Подключение файлов стилей -->
+		<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+		<link rel="stylesheet" href="css/swiper.css">
+		<link rel="stylesheet" href="css/fancybox.css">
+		<link rel="stylesheet" href="css/styles.css">
+
+		<link rel="stylesheet" href="css/response_1439.css" media="print, (max-width: 1439px)">
+		<link rel="stylesheet" href="css/response_1279.css" media="print, (max-width: 1279px)">
+		<link rel="stylesheet" href="css/response_1023.css" media="print, (max-width: 1023px)">
+		<link rel="stylesheet" href="css/response_767.css" media="print, (max-width: 767px)">
+		<link rel="stylesheet" href="css/response_479.css" media="(max-width: 479px)">
+	</head>
+
+	<body>
+		<div class="wrap">
+			<div class="main">
+				<header>
+					<button class="close"></button>
+
+					<div class="mob_scroll">
+						<div class="cont row">
+							<a href="/" class="logo">
+								<img src="images/logo.svg" alt="">
+								<div>AERO<br> VERA</div>
+							</a>
+
+							<div class="account">
+								<div class="link">Личный кабинет</div>
+								<div class="user">Иванов Иван</div>
+
+								<div class="dropdown">
+									<button class="close_btn"></button>
+
+									<div class="items">
+										<div><button>
+											<div class="icon">
+												<svg><use xlink:href="images/sprite.svg#ic_user"></use></svg>
+											</div>
+											<span><b>Гость</b> (демо-аккаунт)</span>
+										</button></div>
+
+										<div><button>
+											<div class="icon">
+												<svg><use xlink:href="images/sprite.svg#ic_user"></use></svg>
+											</div>
+											<span>Иван Иванов</span>
+										</button></div>
+
+										<div><button>
+											<div class="icon">
+												<svg><use xlink:href="images/sprite.svg#ic_user"></use></svg>
+											</div>
+											<span>Петр Петров</span>
+										</button></div>
+
+										<div><button class="add_btn">
+											<div class="icon"></div>
+											<span>Добавить аккаунт</span>
+										</button></div>
+									</div>
+
+									<button class="login_btn modal_link" data-content="#login_modal">Войти</button>
+								</div>
+							</div>
+
+							<nav class="menu">
+								<div class="item">
+									<a href="/" class="home">
+										<svg class="icon"><use xlink:href="images/sprite.svg#ic_home"></use></svg>
+									</a>
+								</div>
+
+								<div class="item">
+									<a href="/">БЫСТРЫЙ СТАРТ</a>
+								</div>
+
+								<div class="item">
+									<a href="/">Авиакомпании</a>
+								</div>
+
+								<div class="item">
+									<a class="active">Самолеты</a>
+								</div>
+
+								<div class="item">
+									<a href="/">Вопросы/ответы</a>
+								</div>
+
+								<div class="item">
+									<a href="/">Галерея</a>
+								</div>
+							</nav>
+
+							<div class="phone">
+								<a href="tel:+79871234567">+7 987 123-45-67</a>
+							</div>
+
+							<button class="order_btn modal_link" data-content="#order_modal">
+								<span>Направить<br> запрос</span>
+								<span class="icon">AV</span>
+							</button>
+
+							<div class="contacts">
+								<div class="whatsapp">
+									<svg class="icon"><use xlink:href="images/sprite.svg#ic_whatsapp"></use></svg>
+									<a href="/">WhatsApp</a>
+								</div>
+
+								<div class="telegram">
+									<svg class="icon"><use xlink:href="images/sprite.svg#ic_telegram"></use></svg>
+									<a href="/">Telegram</a>
+								</div>
+
+								<div class="viber">
+									<svg class="icon"><use xlink:href="images/sprite.svg#ic_viber"></use></svg>
+									<a href="/">Viber</a>
+								</div>
+
+								<div class="email">
+									<svg class="icon"><use xlink:href="images/sprite.svg#ic_email"></use></svg>
+									<a href="mailto:info@air-ambulance.com">info@air-ambulance.com</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</header>
+
+
+				<section class="mob_header">
+					<div class="cont">
+						<a href="/" class="logo">
+							<img src="images/logo.svg" alt="">
+							<div>AERO<br> VERA</div>
+						</a>
+
+						<div class="account">
+							<div><a href="/">Личный кабинет</a></div>
+							<div class="user">Иванов Иван</div>
+						</div>
+
+						<div class="phone">
+							<a href="tel:+79871234567">+7 987 123-45-67</a>
+						</div>
+
+						<button class="order_btn modal_link" data-content="#order_modal">
+							<span>Направить<br> запрос</span>
+							<span class="icon">AV</span>
+						</button>
+
+						<button class="mob_menu_btn">
+							<span></span>
+						</button>
+					</div>
+				</section>
+
+
+				<section class="page_content">
+					<section class="page_head">
+						<div class="cont">
+							<h1 class="page_title">Типы самолетов, часто используемые<br> для медицинских перевозок</h1>
+
+							<div class="vertical_title">САМОЛЕТЫ</div>
+						</div>
+					</section>
+
+
+					<section class="aircraft">
+						<div class="cont">
+							<div class="list">
+								<div class="item">
+									<div class="image">
+										<div class="thumb">
+											<img data-src="images/tmp/aircraft_thumb.jpg" alt="" class="lozad">
+										</div>
+
+										<div class="source">
+											Источник фото <a href="https://www.ace-ambulance.com" target="_blank" rel="noopener nofollow">ace-ambulance.com</a>
+										</div>
+									</div>
+
+									<div class="data">
+										<div class="info">
+											<div class="name">Learjet 31/35/45/55/60</div>
+
+											<div class="desc">Дальность: <b>3000 – 4500</b> км в зависимости от модели и условий рейса</div>
+										</div>
+
+										<div class="advantages">
+											<div class="title">Достоинства</div>
+
+											<div class="items">
+												<div>Прекрасное соотношение цена фрахта / качество услуги</div>
+
+												<div>Для большинства перевозок это наиболее эффективный самолет</div>
+											</div>
+										</div>
+
+										<div class="disadvantages">
+											<div class="title">Недостатки</div>
+
+											<div class="items">
+												<div>Небольшие габариты салона несколько осложняют работу врачей (в коротких рейсах некритично)</div>
+
+												<div>Младшие модели не позволяют перевозить вместе с пациентом много багажа и сопровождающих лиц</div>
+											</div>
+										</div>
+									</div>
+								</div>
+
+
+								<div class="item">
+									<div class="image">
+										<div class="thumb">
+											<img data-src="images/tmp/aircraft_thumb2.jpg" alt="" class="lozad">
+										</div>
+
+										<div class="source">
+											Источник фото <a href="https://www.ace-ambulance.com" target="_blank" rel="noopener nofollow">ace-ambulance.com</a>
+										</div>
+									</div>
+
+									<div class="data">
+										<div class="info">
+											<div class="name">Beechcraft King Air 90/200/350</div>
+
+											<div class="desc">Дальность: <b>2000 – 3000</b> км в зависимости от модели и условий рейса</div>
+										</div>
+
+										<div class="advantages">
+											<div class="title">Достоинства</div>
+
+											<div class="items">
+												<div>Низкая стоимость фрахта</div>
+
+												<div>Достаточно короткой взлетно-посадочной полосы, что позволяет избежать длительной наземной транспортировки от клиники до далекого аэропорта</div>
+
+												<div>Для ближних перевозок очень эффективный самолет</div>
+											</div>
+										</div>
+
+										<div class="disadvantages">
+											<div class="title">Недостатки</div>
+
+											<div class="items">
+												<div>Невысокая скорость по сравнению с реактивными самолетами</div>
+
+												<div>Требуются промежуточные посадки при перевозке пациентов из России в Западную Европу</div>
+											</div>
+										</div>
+									</div>
+								</div>
+
+
+								<div class="item">
+									<div class="image">
+										<div class="thumb">
+											<img data-src="images/tmp/aircraft_thumb3.jpg" alt="" class="lozad">
+										</div>
+
+										<div class="source">
+											Источник фото <a href="https://www.ace-ambulance.com" target="_blank" rel="noopener nofollow">ace-ambulance.com</a>
+										</div>
+									</div>
+
+									<div class="data">
+										<div class="info">
+											<div class="name">Hawker 750/800/800xp/850</div>
+
+											<div class="desc">Дальность: <b>3500 – 5000</b> км в зависимости от модели и условий рейса</div>
+										</div>
+
+										<div class="advantages">
+											<div class="title">Достоинства</div>
+
+											<div class="items">
+												<div>Габариты салоны позволяют врачам работать стоя</div>
+
+												<div>Возможна перевозка двух пациентов без ухудшения условий работы врачей</div>
+
+												<div>Возможна перевозка пациентов из Европейской части России в Западную Европу без промежуточных посадок</div>
+											</div>
+										</div>
+
+										<div class="disadvantages">
+											<div class="title">Недостатки</div>
+
+											<div class="items">
+												<div>Цена фрахта выше, чем за самолеты меньшего размера</div>
+
+												<div>Перевозка пациентов из Зауральской части России в Западную Европу требует промежуточных посадок</div>
+											</div>
+										</div>
+									</div>
+								</div>
+
+
+								<div class="item">
+									<div class="image">
+										<div class="thumb">
+											<img data-src="images/tmp/aircraft_thumb4.jpg" alt="" class="lozad">
+										</div>
+
+										<div class="source">
+											Источник фото <a href="https://www.ace-ambulance.com" target="_blank" rel="noopener nofollow">ace-ambulance.com</a>
+										</div>
+									</div>
+
+									<div class="data">
+										<div class="info">
+											<div class="name">Challenger 600/601/604/605</div>
+
+											<div class="desc">Дальность: <b>6000 – 7000</b> км в зависимости от модели и условий рейса</div>
+										</div>
+
+										<div class="advantages">
+											<div class="title">Достоинства</div>
+
+											<div class="items">
+												<div>Габариты салоны позволяют врачам работать стоя</div>
+
+												<div>Возможна перевозка трех пациентов без ухудшения условий работы врачей</div>
+
+												<div>Возможна перевозка достаточного количества сопровождающих лиц и багажа</div>
+
+												<div>Возможна перевозка пациентов из центральной Сибири в Западную Европу без промежуточных посадок</div>
+											</div>
+										</div>
+
+										<div class="disadvantages">
+											<div class="title">Недостатки</div>
+
+											<div class="items">
+												<div>Цена фрахта выше, чем за самолеты меньшего размера</div>
+
+												<div>Использование этого самолета обосновано, если требуется перевезти несколько пациентов и сопровождающих лиц на дальнее расстояние</div>
+
+												<div>Перевозка пациентов из восточной Сибири в Западную Европу требует промежуточных посадок</div>
+											</div>
+										</div>
+									</div>
+								</div>
+
+
+								<div class="item">
+									<div class="image">
+										<div class="thumb">
+											<img data-src="images/tmp/aircraft_thumb5.jpg" alt="" class="lozad">
+										</div>
+
+										<div class="source">
+											Источник фото <a href="https://www.ace-ambulance.com" target="_blank" rel="noopener nofollow">ace-ambulance.com</a>
+										</div>
+									</div>
+
+									<div class="data">
+										<div class="info">
+											<div class="name">Pilatus PC-12</div>
+
+											<div class="desc">Дальность: <b>2000-3000</b> км в зависимости от условий рейса</div>
+										</div>
+
+										<div class="advantages">
+											<div class="title">Достоинства</div>
+
+											<div class="items">
+												<div>Низкая стоимость фрахта</div>
+
+												<div>Габариты салона достаточны для комфортной работы врачей в полете</div>
+
+												<div>Удобная дверь для погрузки носилок</div>
+											</div>
+										</div>
+
+										<div class="disadvantages">
+											<div class="title">Недостатки</div>
+
+											<div class="items">
+												<div>Невысокая скорость по сравнению с реактивными самолетами</div>
+
+												<div>Нежелательно выполнение маршрутов над территориями, где отсутствуют аэропорты для экстренной посадки (море, пустыня, тайга)</div>
+
+												<div>Требуются промежуточные посадки при перевозке пациентов из России в Западную Европу</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<img data-src="images/bg_aircraft.svg" alt="" class="bg lozad">
+					</section>
+
+
+					<section class="order_form">
+						<div class="cont">
+							<div class="block_title">Запрос медицинской перевозки</div>
+
+							<div class="block_desc">График обработки запросов (время московское)</div>
+
+							<div class="times">
+								<div class="item">
+									<div class="name">после 8.00</div>
+
+									<div class="line blue">
+										<div class="time">06:30</div>
+										<div class="time right">06:30</div>
+									</div>
+
+									<div class="desc">направьте запрос через сайт<br> и позвоните по телефону</div>
+								</div>
+
+								<div class="item">
+									<div class="name">после 2х часов</div>
+
+									<div class="line"></div>
+
+									<div class="desc">достаточно направить<br> запрос через сайт</div>
+								</div>
+
+								<div class="item">
+									<div class="name">до 00.30</div>
+
+									<div class="line blue">
+										<div class="time">06:30</div>
+										<div class="time right">06:30</div>
+									</div>
+
+									<div class="desc">направьте запрос через сайт<br> и позвоните по телефону</div>
+								</div>
+
+								<div class="item">
+									<div class="name">после 8.00</div>
+
+									<div class="line">
+										<div class="time right">06:30</div>
+									</div>
+
+									<div class="desc">достаточно направить<br> запрос через сайт</div>
+								</div>
+							</div>
+
+							<form action="" class="form">
+								<div class="cols">
+									<div class="col">
+										<div class="title">Контактные данные</div>
+
+										<div class="line">
+											<div class="field">
+												<input type="text" name="" value="" class="input" placeholder="Текст">
+											</div>
+										</div>
+
+										<div class="line">
+											<div class="field">
+												<input type="tel" name="" value="" class="input" placeholder="Телефон">
+											</div>
+										</div>
+
+										<div class="line">
+											<div class="field">
+												<input type="email" name="" value="" class="input" placeholder="E-mail">
+											</div>
+										</div>
+									</div>
+
+
+									<div class="col">
+										<div class="title">Маршрут</div>
+
+										<div class="line">
+											<div class="field">
+												<input type="text" name="" value="" class="input" placeholder="Откуда">
+											</div>
+										</div>
+
+										<div class="line">
+											<div class="field">
+												<input type="text" name="" value="" class="input" placeholder="Куда">
+											</div>
+										</div>
+
+										<div class="line">
+											<div class="field">
+												<input type="text" name="" value="" class="input date" placeholder="Дата">
+											</div>
+										</div>
+									</div>
+								</div>
+
+
+								<div class="cols">
+									<div class="col">
+										<div class="submit">
+											<button type="submit" class="submit_btn">
+												<span class="icon">AV</span>
+												<span>Направить запрос на подбор перевозчика</span>
+											</button>
+										</div>
+									</div>
+
+
+									<div class="col">
+										<div class="agree">Передавая свои данные, вы даете согласие на <a href="/" target="_blank">обработку персональных данных</a></div>
+									</div>
+								</div>
+							</form>
+						</div>
+					</section>
+				</section>
+			</div>
+
+
+			<footer>
+				<div class="cont row">
+					<div class="menu">
+						<div class="item">
+							<a href="/">Контакты</a>
+						</div>
+					</div>
+
+					<div class="contacts">
+						<div class="whatsapp">
+							<svg class="icon"><use xlink:href="images/sprite.svg#ic_whatsapp"></use></svg>
+							<a href="/">WhatsApp</a>
+						</div>
+
+						<div class="telegram">
+							<svg class="icon"><use xlink:href="images/sprite.svg#ic_telegram"></use></svg>
+							<a href="/">Telegram</a>
+						</div>
+
+						<div class="viber">
+							<svg class="icon"><use xlink:href="images/sprite.svg#ic_viber"></use></svg>
+							<a href="/">Viber</a>
+						</div>
+
+						<div class="email">
+							<svg class="icon"><use xlink:href="images/sprite.svg#ic_email"></use></svg>
+							<a href="mailto:info@air-ambulance.com">info@air-ambulance.com</a>
+						</div>
+					</div>
+
+					<div class="phone">
+						<a href="tel:+79871234567">+7 987 123-45-67</a>
+					</div>
+
+					<button class="order_btn modal_link" data-content="#order_modal">
+						<span>Направить<br> запрос</span>
+						<span class="icon">AV</span>
+					</button>
+				</div>
+
+
+				<div class="cont row">
+					<div class="copyright">&copy; 2020  AERO VERA AIR AMBULANCE</div>
+
+					<div class="creator">
+						<a href="/" target="_blank" rel="noopener">Создание сайта - Белый кот</a>
+					</div>
+				</div>
+			</footer>
+
+
+			<div class="overlay"></div>
+		</div>
+
+
+		<div class="supports_error">
+			Ваш браузер устарел рекомендуем обновить его до последней версии<br> или использовать другой более современный.
+		</div>
+
+
+		<section class="modal order_form" id="order_modal">
+			<div class="block_title">Запрос медицинской перевозки</div>
+
+			<div class="block_desc">График обработки запросов (время московское)</div>
+
+			<div class="times">
+				<div class="item">
+					<div class="name">после 8.00</div>
+
+					<div class="line blue">
+						<div class="time">06:30</div>
+						<div class="time right">06:30</div>
+					</div>
+
+					<div class="desc">направьте запрос через сайт<br> и позвоните по телефону</div>
+				</div>
+
+				<div class="item">
+					<div class="name">после 2х часов</div>
+
+					<div class="line"></div>
+
+					<div class="desc">достаточно направить<br> запрос через сайт</div>
+				</div>
+
+				<div class="item">
+					<div class="name">до 00.30</div>
+
+					<div class="line blue">
+						<div class="time">06:30</div>
+						<div class="time right">06:30</div>
+					</div>
+
+					<div class="desc">направьте запрос через сайт<br> и позвоните по телефону</div>
+				</div>
+
+				<div class="item">
+					<div class="name">после 8.00</div>
+
+					<div class="line">
+						<div class="time right">06:30</div>
+					</div>
+
+					<div class="desc">достаточно направить<br> запрос через сайт</div>
+				</div>
+			</div>
+
+			<form action="" class="form">
+				<div class="cols">
+					<div class="col">
+						<div class="title">Контактные данные</div>
+
+						<div class="line">
+							<div class="field">
+								<input type="text" name="" value="" class="input" placeholder="Текст">
+							</div>
+						</div>
+
+						<div class="line">
+							<div class="field">
+								<input type="tel" name="" value="" class="input" placeholder="Телефон">
+							</div>
+						</div>
+
+						<div class="line">
+							<div class="field">
+								<input type="email" name="" value="" class="input" placeholder="E-mail">
+							</div>
+						</div>
+					</div>
+
+
+					<div class="col">
+						<div class="title">Маршрут</div>
+
+						<div class="line">
+							<div class="field">
+								<input type="text" name="" value="" class="input" placeholder="Откуда">
+							</div>
+						</div>
+
+						<div class="line">
+							<div class="field">
+								<input type="text" name="" value="" class="input" placeholder="Куда">
+							</div>
+						</div>
+
+						<div class="line">
+							<div class="field">
+								<input type="text" name="" value="" class="input date" placeholder="Дата">
+							</div>
+						</div>
+					</div>
+				</div>
+
+
+				<div class="cols">
+					<div class="col">
+						<div class="submit">
+							<button type="submit" class="submit_btn">
+								<span class="icon">AV</span>
+								<span>Направить запрос на подбор перевозчика</span>
+							</button>
+						</div>
+					</div>
+
+
+					<div class="col">
+						<div class="agree">Передавая свои данные, вы даете согласие на <a href="/" target="_blank">обработку персональных данных</a></div>
+					</div>
+				</div>
+			</form>
+		</section>
+
+
+		<section class="modal" id="consult_modal">
+			<div class="block_title">Получение предварительной консультации</div>
+
+			<div class="block_desc">Опишите кратко вашу ситуацию и отправьте нам запрос. Мы свяжемся с Вами по телефону или email, чтобы ответить на вопросы</div>
+
+			<form action="" class="form">
+				<div class="cols">
+					<div class="col">
+						<div class="title">Контактные данные</div>
+
+						<div class="line">
+							<div class="field">
+								<input type="text" name="" value="" class="input" placeholder="Текст">
+							</div>
+						</div>
+
+						<div class="line">
+							<div class="field">
+								<input type="tel" name="" value="" class="input" placeholder="Телефон">
+							</div>
+						</div>
+
+						<div class="line">
+							<div class="field">
+								<input type="email" name="" value="" class="input" placeholder="E-mail">
+							</div>
+						</div>
+					</div>
+
+
+					<div class="col">
+						<div class="title">Опишите вашу ситуацию</div>
+
+						<div class="line">
+							<div class="field">
+								<textarea name="" placeholder="Краткое описание"></textarea>
+							</div>
+						</div>
+					</div>
+				</div>
+
+
+				<div class="cols">
+					<div class="col">
+						<div class="submit">
+							<button type="submit" class="submit_btn">
+								<span class="icon">AV</span>
+								<span>Получить консультацию</span>
+							</button>
+						</div>
+					</div>
+
+
+					<div class="col">
+						<div class="agree">Передавая свои данные, вы даете согласие на <a href="/" target="_blank">обработку персональных данных</a></div>
+					</div>
+				</div>
+			</form>
+		</section>
+
+
+		<section class="modal" id="login_modal">
+			<div class="block_title">Войдите, чтобы получить<br> доступ к этому разделу</div>
+
+			<form action="" class="form">
+				<div class="line">
+					<div class="field">
+						<input type="text" name="" value="" class="input" placeholder="Логин">
+					</div>
+				</div>
+
+				<div class="line">
+					<div class="field">
+						<input type="password" name="" value="" class="input" placeholder="Пароль">
+					</div>
+				</div>
+
+				<div class="submit">
+					<button type="submit" class="submit_btn">
+						<span class="icon">AV</span>
+						<span>Войти</span>
+					</button>
+				</div>
+			</form>
+
+			<div class="or_register">
+				<div class="title">Нет аккаунта? Зарегистрируйтесь!</div>
+
+				<button type="button" class="btn">
+					<span class="icon">AV</span>
+					<span>Отправить запрос на регистрацию</span>
+				</button>
+			</div>
+		</section>
+
+
+		<!-- Подключение javascript файлов -->
+		<script src="js/jquery-3.5.0.min.js"></script>
+		<script src="js/lozad.min.js"></script>
+		<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+		<script src="js/inputmask.min.js"></script>
+		<script src="js/fancybox.min.js"></script>
+		<script src="js/functions.js"></script>
+		<script src="js/scripts.js"></script>
+	</body>
+</html>

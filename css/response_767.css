@@ -1,0 +1,739 @@
+@media print, (max-width: 767px)
+{
+    /*-------------------
+        Global styles
+    -------------------*/
+    :root
+    {
+        --font_size: 14px;
+        --font_size_title: 26px;
+    }
+
+
+    .cont
+    {
+        padding: 0 20px;
+    }
+
+
+    .block > .cont
+    {
+        padding-left: 20px;
+    }
+
+
+
+    /*------------
+        Header
+    ------------*/
+    .mob_header
+    {
+        z-index: 99;
+
+        padding: 16px 0;
+    }
+
+
+    .mob_header .account,
+    .mob_header .order_btn
+    {
+        display: none;
+    }
+
+
+
+    header .account
+    {
+        font-size: 13px;
+        line-height: 18px;
+
+        display: block;
+
+        width: 100%;
+        margin-bottom: 28px;
+        padding-bottom: 28px;
+
+        border-bottom: 1px solid #50515c;
+    }
+
+    header .account > * + *
+    {
+        margin-top: 6px;
+    }
+
+
+    header .account .dropdown
+    {
+        top: calc(100% - 8px);
+
+        width: 262px;
+    }
+
+    header .account .dropdown .items button
+    {
+        font-size: 14px;
+        line-height: 18px;
+    }
+
+
+    header .order_btn
+    {
+        position: relative;
+        top: 0;
+        right: 0;
+
+        display: flex;
+
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    header .order_btn span
+    {
+        width: calc(100% - 43px);
+    }
+
+    header .order_btn span.icon
+    {
+        width: 43px;
+    }
+
+    header .order_btn br
+    {
+        display: none;
+    }
+
+
+
+    /*------------------
+        Page content
+    ------------------*/
+    .page_content
+    {
+        padding-top: 24px;
+    }
+
+    .page_content .cont
+    {
+        padding-left: 20px;
+    }
+
+
+
+    /*---------------
+        Page head
+    ---------------*/
+    .page_head
+    {
+        margin-bottom: 24px;
+    }
+
+    .page_head .page_title
+    {
+        line-height: calc(var(--font_size_title) * 1.15);
+    }
+
+
+
+    /*----------
+        Tabs
+    ----------*/
+    .tabs
+    {
+        margin-bottom: 24px;
+    }
+
+    .tabs button + button
+    {
+        margin-left: 32px;
+    }
+
+
+
+    /*----------------
+        Block head
+    ----------------*/
+    .block_head.with_btn
+    {
+        padding-right: 0;
+    }
+
+    .block_head .title.small
+    {
+        font-size: 20px;
+        line-height: 24px;
+
+        padding-right: 112px;
+    }
+
+
+    .block_head .consult_btn
+    {
+        position: relative;
+
+        margin-top: 16px;
+    }
+
+
+
+    /*------------------
+        Form elements
+    ------------------*/
+    .form .cols .col
+    {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .form .cols .col + .col
+    {
+        margin-top: 24px;
+    }
+
+
+    .form .title
+    {
+        font-size: 16px;
+        line-height: 20px;
+
+        margin-bottom: 12px;
+    }
+
+
+
+    /*-------------------
+        First section
+    -------------------*/
+    .first_section
+    {
+        padding: 124px 0 60px;
+    }
+
+
+    .first_section .titles .title
+    {
+        font-size: 32px;
+        line-height: 36px;
+    }
+
+    .first_section .titles .sub_title
+    {
+        font-size: 19px;
+        line-height: 25px;
+    }
+
+
+    .first_section .companies
+    {
+        width: 100%;
+        padding: 24px;
+    }
+
+    .first_section .companies .title
+    {
+        font-size: 17px;
+        line-height: 23px;
+    }
+
+    .first_section .companies .items
+    {
+        column-gap: 80px;
+        column-count: 2;
+    }
+
+
+    .first_section .directions
+    {
+        width: 100%;
+        padding: 24px;
+    }
+
+    .first_section .directions .title
+    {
+        font-size: 20px;
+        line-height: 24px;
+
+        margin-top: 24px;
+    }
+
+
+
+    /*--------------
+        European
+    --------------*/
+    .european .companies
+    {
+        width: 100%;
+    }
+
+    .european .companies .list
+    {
+        column-gap: 44px;
+        column-count: 2;
+    }
+
+
+    .european .items
+    {
+        width: 100%;
+        margin-top: 32px;
+    }
+
+    .european .items > *
+    {
+        padding-bottom: 24px;
+    }
+
+    .european .items > *:nth-child(1)
+    {
+        padding-right: 24px;
+        padding-left: 24px;
+    }
+
+    .european .items > *.big
+    {
+        padding-left: 24px;
+    }
+
+    .european .items .val
+    {
+        font-size: 36px;
+        line-height: 36px;
+    }
+
+    .european .items .val small
+    {
+        font-size: 21px;
+    }
+
+    .european .items .val img
+    {
+        margin-left: 12px;
+    }
+
+    .european .items .desc
+    {
+        width: calc(100% - 124px);
+    }
+
+
+    .european .for_patients .item .features
+    {
+        font-size: 13px;
+        line-height: 19px;
+    }
+
+
+
+    /*-------------------
+        Direct access
+    -------------------*/
+    .direct_access .items
+    {
+        width: 100%;
+        margin-bottom: -32px;
+        margin-left: 0;
+    }
+
+    .direct_access .items > *
+    {
+        width: 100%;
+        margin-bottom: 32px;
+        margin-left: 0;
+    }
+
+
+    .direct_access .items .item .name
+    {
+        font-size: 18px;
+        line-height: 24px;
+
+        margin-bottom: 12px;
+    }
+
+
+
+    /*-------------------
+        Cost includes
+    -------------------*/
+    .cost_includes .block_head .title.small
+    {
+        padding-right: 0;
+    }
+
+
+
+    /*------------
+        Why we
+    ------------*/
+    .why_we .block_head
+    {
+        margin-bottom: 32px !important;
+    }
+
+
+    .why_we .items > *
+    {
+        width: calc(100% - 24px);
+    }
+
+
+
+    /*-------------
+        Gallery
+    -------------*/
+    .gallery .row > *
+    {
+        width: calc(50% - 8px);
+
+        order: 2;
+    }
+
+    .gallery .row > *.big
+    {
+        width: calc(100% - 8px);
+
+        order: 1;
+    }
+
+
+    .gallery .slide .source:before
+    {
+        height: 200%;
+    }
+
+
+
+    /*-----------------
+        Quick start
+    -----------------*/
+    .quick_start .cols .col > * + *
+    {
+        margin-top: 40px;
+    }
+
+
+    .quick_start .cols .block_title
+    {
+        font-size: 20px;
+        line-height: 24px;
+
+        margin-bottom: 20px;
+    }
+
+
+    .quick_start .cols .col + .col
+    {
+        margin-top: 40px;
+    }
+
+
+    .quick_start .important_know ol li + li
+    {
+        margin-top: 16px;
+    }
+
+
+    .quick_start .exp
+    {
+        padding: 24px;
+    }
+
+
+
+    /*---------
+        Faq
+    ---------*/
+    .faq .cols .col + .col
+    {
+        margin-top: 40px;
+    }
+
+
+    .faq .item + .item
+    {
+        margin-top: 20px;
+    }
+
+    .faq .item .title
+    {
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+    .faq .item .data
+    {
+        padding-top: 8px;
+    }
+
+
+
+    /*-------------------
+        Contacts info
+    -------------------*/
+    .contacts_info .info
+    {
+        padding: 24px;
+    }
+
+
+    .contacts_info .phone a
+    {
+        font-size: 32px;
+        line-height: 40px;
+    }
+
+
+    .contacts_info .messengers
+    {
+        margin-top: 20px;
+    }
+
+
+    .contacts_info .email,
+    .contacts_info .location
+    {
+        margin-top: 12px;
+    }
+
+
+
+    /*----------------
+        Requisites
+    ----------------*/
+    .requisites .block_title
+    {
+        font-size: 20px;
+        line-height: 24px;
+    }
+
+
+    .requisites .row > *
+    {
+        width: calc(100% - 32px);
+        max-width: calc(100% - 32px);
+    }
+
+    .requisites .row > * + *
+    {
+        margin-top: 20px;
+    }
+
+
+
+    /*-------------------
+        Airlines head
+    -------------------*/
+    .airlines_head .institute .text > *
+    {
+        padding-top: 20px;
+    }
+
+    .airlines_head .institute .text > * + *
+    {
+        margin-top: 20px;
+    }
+
+
+    .airlines_head .big_boss
+    {
+        padding: 24px;
+    }
+
+    .airlines_head .big_boss .text
+    {
+        width: 100%;
+        margin-top: 24px;
+    }
+
+
+
+    /*--------------
+        Airlines
+    --------------*/
+    .airlines .block_head .title.small
+    {
+        padding-right: 0;
+    }
+
+
+    .airlines .row
+    {
+        margin-bottom: -12px;
+        margin-left: -12px;
+
+        --airlines_count: 2;
+    }
+
+    .airlines .row > *
+    {
+        width: calc(50% - 12px);
+        margin-bottom: 12px;
+        margin-left: 12px;
+    }
+
+
+    .airlines .company .name
+    {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .airlines .company .details_link
+    {
+        margin-top: 24px;
+    }
+
+
+
+    /*--------------
+        Aircraft
+    --------------*/
+    .aircraft .item .image
+    {
+        width: 100%;
+    }
+
+
+    .aircraft .item .data
+    {
+        width: 100%;
+    }
+
+
+
+    /*-------------
+        Lk info
+    -------------*/
+    .lk_info .lk_menu .row
+    {
+        --lk_menu_count: 1;
+    }
+
+    .lk_info .lk_menu .row > *
+    {
+        width: calc(100% - 16px);
+    }
+
+
+    .lk_info .lk_menu .item .name
+    {
+        font-size: 16px;
+        line-height: 22px;
+
+        align-self: center;
+    }
+
+    .lk_info .lk_menu .item .desc
+    {
+        margin-top: 16px;
+    }
+
+
+
+    /*----------------
+        Order form
+    ----------------*/
+    .order_form .times
+    {
+        padding: 24px;
+    }
+
+
+
+    /*------------
+        Footer
+    ------------*/
+    footer .cont + .cont
+    {
+        margin-top: 20px;
+    }
+
+
+    footer .phone
+    {
+        font-size: 17px;
+        line-height: 21px;
+    }
+
+
+    footer .contacts
+    {
+        width: calc(100% + 20px);
+        margin-top: 16px;
+        margin-bottom: -12px;
+        margin-left: -20px;
+    }
+
+    footer .contacts > *
+    {
+        margin-bottom: 12px;
+        margin-left: 20px;
+    }
+
+
+    footer .copyright
+    {
+        width: 100%;
+        margin-bottom: 12px;
+    }
+
+
+
+    /*-----------
+        PopUp
+    -----------*/
+    .fancybox-slide--html
+    {
+        padding: 12px;
+    }
+
+
+    .modal
+    {
+        padding: 40px 28px 28px;
+    }
+
+
+    .modal .block_title
+    {
+        font-size: 21px;
+        font-weight: 600;
+        line-height: 25px;
+
+        margin-bottom: 30px;
+    }
+
+    .modal .block_desc
+    {
+        margin-top: -12px;
+        margin-bottom: 30px;
+    }
+
+
+    .modal.order_form .block_title
+    {
+        font-size: 20px;
+        line-height: 24px;
+
+        margin-bottom: 20px;
+    }
+
+
+    .modal.order_form .times
+    {
+        width: calc(100% + 56px);
+        margin-right: -28px;
+        margin-left: -28px;
+        padding: 32px 24px;
+    }
+
+
+
+    #login_modal .or_register .title
+    {
+        font-size: 21px;
+        font-weight: 600;
+        line-height: 25px;
+    }
+}

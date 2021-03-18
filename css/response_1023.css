@@ -1,0 +1,636 @@
+@media print, (max-width: 1023px)
+{
+    /*-------------------
+        Global styles
+    -------------------*/
+    :root
+    {
+        --font_size: 14px;
+        --font_size_title: 28px;
+    }
+
+
+    .content_flex .content
+    {
+        width: 100%;
+    }
+
+
+
+    /*------------
+        Header
+    ------------*/
+
+
+
+    /*-------------
+        Sidebar
+    -------------*/
+    aside
+    {
+        width: 100%;
+        margin-top: 40px;
+    }
+
+
+
+    aside .account_info .features > * + *
+    {
+        margin-top: 12px;
+    }
+
+
+
+    /*------------------
+        Page content
+    ------------------*/
+    .page_content
+    {
+        padding-top: 32px;
+    }
+
+
+
+    /*---------------
+        Page head
+    ---------------*/
+    .page_head
+    {
+        margin-bottom: 28px;
+    }
+
+
+
+    /*----------
+        Tabs
+    ----------*/
+    .tabs
+    {
+        margin-bottom: 32px;
+    }
+
+    .tabs button
+    {
+        font-size: 15px;
+        line-height: 25px;
+    }
+
+    .tabs button + button
+    {
+        margin-left: 40px;
+    }
+
+
+
+    /*----------------
+        Block head
+    ----------------*/
+
+
+
+    /*------------------
+        Form elements
+    ------------------*/
+    .form .title
+    {
+        font-size: 17px;
+        line-height: 19px;
+
+        margin-bottom: 16px;
+    }
+
+
+    .form .cols + .cols
+    {
+        margin-top: 20px;
+    }
+
+    .form .cols .col
+    {
+        max-width: calc(50% - 12px);
+    }
+
+
+    .form .input
+    {
+        height: 48px;
+        padding: 0 19px;
+    }
+
+
+
+    /*-------------------
+        First section
+    -------------------*/
+    .first_section
+    {
+        padding: 140px 0 60px;
+    }
+
+
+    .first_section .titles .title
+    {
+        font-size: 36px;
+        line-height: 42px;
+
+        width: 100%;
+    }
+
+    .first_section .titles .sub_title
+    {
+        font-size: 22px;
+        line-height: 28px;
+
+        width: 100%;
+        max-width: 100%;
+        margin-top: 16px;
+        margin-left: 0;
+    }
+
+
+    .first_section .row
+    {
+        margin-top: 40px;
+    }
+
+
+    .first_section .companies
+    {
+        width: 350px;
+        padding: 24px 28px;
+    }
+
+    .first_section .companies .title
+    {
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+
+    .first_section .directions
+    {
+        width: calc(100% - 350px);
+        padding: 24px 28px;
+    }
+
+    .first_section .directions .items .item
+    {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .first_section .directions .title
+    {
+        font-size: 21px;
+        line-height: 25px;
+
+        margin-top: 32px;
+    }
+
+
+
+    /*--------------
+        European
+    --------------*/
+    .european .top .block_head
+    {
+        width: 100%;
+        margin-bottom: 24px !important;
+    }
+
+    .european .top .block_head .bg
+    {
+        display: none;
+    }
+
+
+    .european .items
+    {
+        width: calc(100% - 200px);
+    }
+
+
+    .european .for_patients > *
+    {
+        width: calc(50% - 20px);
+    }
+
+
+
+    /*-------------------
+        Direct access
+    -------------------*/
+    .direct_access .block_head
+    {
+        margin-bottom: 32px !important;
+    }
+
+
+    .direct_access .items
+    {
+        width: calc(100% + 44px);
+        margin-bottom: -44px;
+        margin-left: -44px;
+    }
+
+    .direct_access .items > *
+    {
+        width: calc(50% - 44px);
+        margin-bottom: 44px;
+        margin-left: 44px;
+    }
+
+
+    .direct_access .items .item .name
+    {
+        font-size: 19px;
+        line-height: 25px;
+
+        margin-bottom: 16px;
+    }
+
+
+
+    /*-------------------
+        Cost includes
+    -------------------*/
+    .cost_includes .items
+    {
+        margin-bottom: -16px;
+    }
+
+    .cost_includes .items > *
+    {
+        max-width: calc(50% - 32px);
+        margin-bottom: 16px;
+    }
+
+
+    .cost_includes .destinations
+    {
+        margin-top: 32px;
+    }
+
+
+    .cost_includes .destinations .item
+    {
+        padding: 20px;
+    }
+
+    .cost_includes .destinations .item .from,
+    .cost_includes .destinations .item .to,
+    .cost_includes .destinations .item .aircraft
+    {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .cost_includes .destinations .item .price
+    {
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+
+
+    /*------------
+        Why we
+    ------------*/
+    .why_we .items .item
+    {
+        padding: 24px;
+    }
+
+
+
+    /*-------------
+        Reviews
+    -------------*/
+    .reviews .row
+    {
+        margin-bottom: -40px;
+    }
+
+    .reviews .row > *
+    {
+        width: calc(100% - 32px);
+        margin-bottom: 40px;
+    }
+
+
+
+    /*-------------
+        Gallery
+    -------------*/
+    .gallery .row
+    {
+        margin-bottom: -8px;
+        margin-left: -8px;
+    }
+
+    .gallery .row > *
+    {
+        width: calc(25% - 8px);
+        margin-bottom: 8px;
+        margin-left: 8px;
+    }
+
+    .gallery .row > *.big
+    {
+        width: calc(50% - 8px);
+    }
+
+
+
+    /*-----------------
+        Quick start
+    -----------------*/
+    .quick_start .cols .col > * + *
+    {
+        margin-top: 52px;
+    }
+
+
+    .quick_start .cols .block_title
+    {
+        font-size: 21px;
+        line-height: 25px;
+
+        margin-bottom: 25px;
+    }
+
+
+    .quick_start .cols .col,
+    .quick_start .cols .col + .col
+    {
+        width: 100%;
+    }
+
+    .quick_start .cols .col + .col
+    {
+        margin-top: 52px;
+    }
+
+
+    .quick_start .links
+    {
+        margin-top: 40px;
+    }
+
+    .quick_start .links > * + *
+    {
+        margin-top: 12px;
+    }
+
+
+    .quick_start .important_know ol li + li
+    {
+        margin-top: 20px;
+    }
+
+
+    .quick_start .exp
+    {
+        padding: 28px 44px;
+    }
+
+
+    .quick_start .bg,
+    .quick_start .bg2
+    {
+        display: none;
+    }
+
+
+
+    /*---------
+        Faq
+    ---------*/
+    .faq
+    {
+        margin-bottom: 60px;
+    }
+
+
+    .faq .cols .col
+    {
+        width: 100%;
+    }
+
+    .faq .cols .col + .col
+    {
+        margin-top: 48px;
+    }
+
+
+
+    /*-------------------
+        Contacts info
+    -------------------*/
+    .contacts_info .data
+    {
+        overflow: visible;
+
+        padding: 0;
+
+        background: none;
+    }
+
+
+    .contacts_info .info
+    {
+        width: 100%;
+        padding: 24px 32px 28px;
+    }
+
+
+    .contacts_info .map
+    {
+        position: relative;
+
+        height: 360px;
+        margin-top: 32px;
+
+        background: #ddd;
+
+        order: 2;
+    }
+
+
+
+    /*----------------
+        Requisites
+    ----------------*/
+    .requisites .block_title
+    {
+        font-size: 21px;
+        line-height: 25px;
+
+        margin-bottom: 20px;
+    }
+
+
+    .requisites .row
+    {
+        margin-left: -32px;
+    }
+
+    .requisites .row > *
+    {
+        width: calc(50% - 32px);
+        max-width: calc(100% - 32px);
+        margin-left: 32px;
+    }
+
+    .requisites .download
+    {
+        margin-top: 24px;
+    }
+
+
+
+    /*-------------------
+        Airlines head
+    -------------------*/
+    .airlines_head
+    {
+        margin-bottom: 52px;
+    }
+
+
+    .airlines_head .data
+    {
+        width: 100%;
+    }
+
+
+    .airlines_head .big_boss
+    {
+        width: 100%;
+        margin-top: 32px;
+    }
+
+    .airlines_head .big_boss .text
+    {
+        width: calc(100% - 182px);
+        margin-top: 0;
+    }
+
+
+
+    /*--------------
+        Airlines
+    --------------*/
+    .airlines .slider_wrap
+    {
+        padding-top: 60px;
+    }
+
+    .airlines .slider_wrap .swiper-container
+    {
+        width: 100%;
+    }
+
+    .airlines .swiper-button-next,
+    .airlines .swiper-button-prev
+    {
+        top: -60px;
+    }
+
+
+    .airlines .question
+    {
+        width: 100%;
+        margin-top: 32px;
+        padding: 24px;
+    }
+
+
+    .airlines .row
+    {
+        --airlines_count: 3;
+    }
+
+    .airlines .row > *
+    {
+        width: calc(33.333% - 20px);
+    }
+
+
+    .airlines .company .name
+    {
+        font-size: 15px;
+        line-height: 21px;
+    }
+
+
+
+    /*--------------
+        Aircraft
+    --------------*/
+    .aircraft .item .info .name
+    {
+        font-size: 19px;
+        line-height: 25px;
+    }
+
+
+
+    /*----------------
+        Order form
+    ----------------*/
+    .order_form .block_title
+    {
+        font-size: 20px;
+        line-height: 26px;
+    }
+
+
+    .order_form .times
+    {
+        padding: 32px;
+    }
+
+    .order_form .times:before
+    {
+        display: none;
+    }
+
+    .order_form .times .item
+    {
+        width: 50%;
+    }
+
+    .order_form .times .item:nth-child(3),
+    .order_form .times .item:nth-child(4)
+    {
+        margin-top: 32px;
+    }
+
+    .order_form .times .item .line
+    {
+        background: #fff;
+    }
+
+
+    .order_form .form
+    {
+        padding-right: 0;
+    }
+
+
+
+    /*------------
+        Footer
+    ------------*/
+
+
+
+    /*-----------
+        PopUp
+    -----------*/
+    .modal.order_form .times .item .desc br
+    {
+        display: block;
+    }
+}

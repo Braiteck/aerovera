@@ -1,0 +1,859 @@
+@media print, (max-width: 1439px)
+{
+    /*-------------------
+        Global styles
+    -------------------*/
+    :root
+    {
+        --sidebar_width: 320px;
+    }
+
+
+    .cont
+    {
+        padding: 0 30px;
+    }
+
+
+
+    .block
+    {
+        margin-bottom: 72px;
+    }
+
+    .block > .cont
+    {
+        padding-left: 80px;
+    }
+
+
+
+    /*------------
+        Header
+    ------------*/
+    header
+    {
+        padding-bottom: 31px;
+    }
+
+
+    header .logo
+    {
+        font-size: 18px;
+        line-height: 22px;
+    }
+
+
+    header .order_btn
+    {
+        position: absolute;
+        top: 80px;
+        right: 30px;
+    }
+
+
+    header .contacts
+    {
+        margin-top: 16px;
+        margin-right: 193px;
+    }
+
+
+
+    /*-------------
+        Sidebar
+    -------------*/
+    aside .account_info
+    {
+        padding: 24px;
+    }
+
+
+    aside .account_info .user
+    {
+        font-size: 15px;
+        line-height: 21px;
+
+        margin-bottom: 24px;
+    }
+
+
+    aside .account_info .features
+    {
+        font-size: 15px;
+        line-height: 21px;
+    }
+
+    aside .account_info .features > * + *
+    {
+        margin-top: 16px;
+    }
+
+
+
+    aside .auth
+    {
+        padding: 24px;
+    }
+
+    aside .auth .login,
+    aside .auth .login button
+    {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+
+
+    /*------------------
+        Page content
+    ------------------*/
+    .page_content
+    {
+        padding-top: 48px;
+    }
+
+    .page_content .cont
+    {
+        padding-left: 80px;
+    }
+
+
+
+    /*---------------
+        Page head
+    ---------------*/
+    .page_head .page_title
+    {
+        line-height: calc(var(--font_size_title) * 1.2);
+    }
+
+    .page_head .vertical_title
+    {
+        left: 28px;
+    }
+
+
+
+    /*----------
+        Tabs
+    ----------*/
+    .tabs
+    {
+        margin-bottom: 50px;
+    }
+
+
+
+    /*----------------
+        Block head
+    ----------------*/
+    .block_head
+    {
+        margin-bottom: 30px;
+    }
+
+    .block_head.empty
+    {
+        display: none;
+    }
+
+    .block_head .title
+    {
+        line-height: calc(var(--font_size_title) * 1.2);
+    }
+
+    .block_head .vertical_title
+    {
+        left: -50px;
+    }
+
+    .block_head .links
+    {
+        margin-top: 36px;
+    }
+
+
+
+    /*------------------
+        Form elements
+    ------------------*/
+
+
+
+    /*-------------------
+        First section
+    -------------------*/
+    .first_section
+    {
+        padding: 220px 0 40px;
+    }
+
+
+    .first_section .titles .title
+    {
+        font-size: 46px;
+        line-height: 56px;
+
+        width: 460px;
+    }
+
+
+    .first_section .titles .sub_title
+    {
+        font-size: 26px;
+        line-height: 36px;
+
+        max-width: calc(100% - 492px);
+        margin-top: 8px;
+        margin-left: 32px;
+    }
+
+
+    .first_section .row
+    {
+        margin-top: 80px;
+    }
+
+
+    .first_section .companies
+    {
+        width: 460px;
+        padding: 40px 40px 40px 32px;
+    }
+
+    .first_section .companies .title
+    {
+        font-size: 20px;
+        line-height: 26px;
+    }
+
+
+    .first_section .directions
+    {
+        width: calc(100% - 460px);
+        padding: 40px 40px 40px 32px;
+    }
+
+    .first_section .directions .items .item
+    {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .first_section .directions .title
+    {
+        font-size: 28px;
+        line-height: 34px;
+
+        margin-top: 44px;
+    }
+
+
+
+    /*--------------
+        European
+    --------------*/
+    .european
+    {
+        padding: 72px 0;
+    }
+
+
+    .european .companies .val
+    {
+        font-size: 44px;
+        line-height: 44px;
+    }
+
+    .european .companies .name
+    {
+        line-height: 22px;
+
+        margin-top: 12px;
+    }
+
+    .european .companies .list
+    {
+        margin-top: 32px;
+    }
+
+
+    .european .items > *
+    {
+        padding-bottom: 40px;
+    }
+
+    .european .items > *:nth-child(1)
+    {
+        padding-right: 48px;
+        padding-left: 48px;
+    }
+
+    .european .items > *:nth-child(2)
+    {
+        padding-left: 24px;
+    }
+
+    .european .items > *:nth-child(3)
+    {
+        padding-right: 48px;
+        padding-left: 48px;
+    }
+
+    .european .items .val
+    {
+        font-size: 44px;
+        line-height: 44px;
+    }
+
+    .european .items .val small
+    {
+        font-size: 36px;
+    }
+
+    .european .items .name
+    {
+        line-height: 22px;
+
+        margin-top: 12px;
+    }
+
+    .european .items .desc
+    {
+        width: calc(100% - 164px);
+    }
+
+
+    .european .for_patients
+    {
+        margin-top: 14px;
+        margin-bottom: -24px;
+        margin-left: -24px;
+    }
+
+    .european .for_patients > *
+    {
+        width: calc(25% - 24px);
+        margin-bottom: 24px;
+        margin-left: 24px;
+    }
+
+
+    .european .for_patients .item .info
+    {
+        padding: 20px;
+    }
+
+    .european .for_patients .item .name
+    {
+        line-height: 20px;
+    }
+
+    .european .for_patients .item .features
+    {
+        line-height: 20px;
+
+        margin-top: 16px;
+    }
+
+    .european .for_patients .item .features > *:before
+    {
+        top: 5px;
+    }
+
+    .european .for_patients .item .features > * + *
+    {
+        margin-top: 8px;
+    }
+
+
+
+    /*-------------------
+        Direct access
+    -------------------*/
+    .direct_access
+    {
+        padding: 72px 0;
+    }
+
+
+    .direct_access .items
+    {
+        width: calc(100% - 558px);
+        margin-bottom: -32px;
+        margin-left: -32px;
+        padding-top: 0;
+    }
+
+    .direct_access .items > *
+    {
+        width: calc(50% - 32px);
+        margin-bottom: 32px;
+        margin-left: 32px;
+    }
+
+
+    .direct_access .items .item .name
+    {
+        font-size: 22px;
+        line-height: 28px;
+
+        margin-bottom: 20px;
+    }
+
+    .direct_access .items .item .desc > * + *
+    {
+        margin-top: 16px;
+    }
+
+
+    .direct_access .bg
+    {
+        bottom: 40px;
+
+        margin-left: -540px;
+    }
+
+
+
+    /*-------------------
+        Cost includes
+    -------------------*/
+    .cost_includes
+    {
+        margin-bottom: 60px;
+        padding: 52px 0;
+    }
+
+
+    .cost_includes .items
+    {
+        margin-bottom: -24px;
+    }
+
+    .cost_includes .items > *
+    {
+        margin-bottom: 24px;
+    }
+
+
+    .cost_includes .destinations
+    {
+        margin-top: 40px;
+    }
+
+
+    .cost_includes .destinations .item .from,
+    .cost_includes .destinations .item .to
+    {
+        font-size: 15px;
+        line-height: 23px;
+    }
+
+    .cost_includes .destinations .item .line
+    {
+        margin-top: 24px;
+    }
+
+    .cost_includes .destinations .item .price
+    {
+        font-size: 18px;
+        line-height: 26px;
+
+        margin-top: 20px;
+    }
+
+    .cost_includes .destinations .item .aircraft
+    {
+        font-size: 15px;
+        line-height: 23px;
+
+        margin: 20px 0 0;
+    }
+
+
+    .cost_includes .exp
+    {
+        margin-top: 16px;
+    }
+
+
+
+    /*------------
+        Why we
+    ------------*/
+    .why_we
+    {
+        padding-bottom: 0;
+    }
+
+
+    .why_we .items
+    {
+        width: calc(100% - 428px);
+        margin-bottom: -24px;
+        margin-left: -24px;
+    }
+
+    .why_we .items > *
+    {
+        width: calc(50% - 24px);
+        margin-bottom: 24px;
+        margin-left: 24px;
+    }
+
+
+    .why_we .items .item
+    {
+        padding: 24px;
+    }
+
+
+
+    /*----------------
+        Reviews
+    ----------------*/
+    .reviews
+    {
+        padding-bottom: 0;
+    }
+
+
+    .reviews .row
+    {
+        margin-bottom: -32px;
+        margin-left: -32px;
+    }
+
+    .reviews .row > *
+    {
+        width: calc(50% - 32px);
+        margin-bottom: 32px;
+        margin-left: 32px;
+    }
+
+
+    .reviews .review .text
+    {
+        padding: 24px 24px 24px 48px;
+
+        background-position: 14px 28px;
+    }
+
+
+
+    /*-------------
+        Gallery
+    -------------*/
+    .gallery .swiper-button-next,
+    .gallery .swiper-button-prev
+    {
+        top: -72px;
+    }
+
+
+    .gallery .row
+    {
+        margin-bottom: -20px;
+        margin-left: -20px;
+    }
+
+    .gallery .row > *
+    {
+        width: calc(25% - 20px);
+        margin-bottom: 20px;
+        margin-left: 20px;
+    }
+
+    .gallery .row > *.big
+    {
+        width: calc(50% - 20px);
+    }
+
+
+    .gallery .slide .source:before
+    {
+        width: calc(100% + 24px);
+    }
+
+    .gallery .slide .source
+    {
+        font-size: 12px;
+        line-height: 18px;
+
+        padding: 12px 16px 16px 0;
+    }
+
+
+
+    /*---------
+        Faq
+    ---------*/
+    .faq
+    {
+        margin-bottom: 88px;
+    }
+
+
+    .faq .item .title
+    {
+        font-size: 20px;
+        line-height: 26px;
+    }
+
+
+
+    /*-------------------
+        Contacts info
+    -------------------*/
+    .contacts_info
+    {
+        margin-bottom: 64px;
+    }
+
+
+    .contacts_info .data
+    {
+        padding: 88px;
+    }
+
+
+    .contacts_info .info
+    {
+        width: 480px;
+        padding: 32px;
+    }
+
+
+    .contacts_info .phone a
+    {
+        font-size: 44px;
+        line-height: 52px;
+    }
+
+
+
+    /*----------------
+        Requisites
+    ----------------*/
+    .requisites
+    {
+        margin-bottom: 72px;
+    }
+
+
+
+    /*-------------------
+        Airlines head
+    -------------------*/
+    .airlines_head
+    {
+        margin-bottom: 40px;
+    }
+
+
+    .airlines_head .page_head
+    {
+        margin-bottom: 40px;
+    }
+
+
+    .airlines_head .data
+    {
+        width: calc(50% - 16px);
+    }
+
+
+    .airlines_head .big_boss
+    {
+        width: calc(50% - 16px);
+        padding: 32px 32px 40px;
+    }
+
+    .airlines_head .big_boss .text
+    {
+        width: calc(100% - 182px);
+    }
+
+
+
+    /*--------------
+        Airlines
+    --------------*/
+    .airlines .slider_wrap
+    {
+        padding-top: 72px;
+    }
+
+    .airlines .swiper-button-next,
+    .airlines .swiper-button-prev
+    {
+        top: -72px;
+    }
+
+
+    .airlines .block_title
+    {
+        font-size: 22px;
+        line-height: 26px;
+
+        margin-bottom: 30px;
+    }
+
+
+    .airlines .row
+    {
+        margin-bottom: -24px;
+        margin-left: -24px;
+    }
+
+    .airlines .row > *
+    {
+        width: calc(25% - 24px);
+        margin-bottom: 24px;
+        margin-left: 24px;
+    }
+
+
+    .airlines .company
+    {
+        padding-bottom: 24px;
+    }
+
+    .airlines .company .name
+    {
+        font-size: 17px;
+        line-height: 23px;
+    }
+
+    .airlines .company .country
+    {
+        margin-top: 8px;
+    }
+
+    .airlines .company .details_link
+    {
+        margin-top: 32px;
+    }
+
+
+    .airlines .slider_wrap .swiper-container
+    {
+        width: calc(75.48% - 12px);
+    }
+
+    .airlines .question
+    {
+        width: calc(24.52% - 12px);
+        padding: 24px;
+    }
+
+
+
+    /*--------------
+        Aircraft
+    --------------*/
+    .aircraft
+    {
+        margin-bottom: 72px;
+    }
+
+
+    .aircraft .item .data
+    {
+        padding: 16px 24px;
+    }
+
+
+    .aircraft .item .info .name
+    {
+        font-size: 20px;
+        line-height: 26px;
+    }
+
+
+    .aircraft .item .disadvantages
+    {
+        font-size: 14px;
+
+        width: calc(100% - 556px);
+    }
+
+    .aircraft .item .advantages
+    {
+        font-size: 14px;
+    }
+
+    .aircraft .item .advantages .items > * + *,
+    .aircraft .item .disadvantages .items > * + *
+    {
+        margin-top: 12px;
+    }
+
+
+
+    /*-------------
+        Lk info
+    -------------*/
+    .lk_info .lk_menu .item
+    {
+        padding: 24px 16px;
+    }
+
+    .lk_info .lk_menu .item .name
+    {
+        font-size: 18px;
+        line-height: 24px;
+
+        width: calc(100% - 62px);
+    }
+
+    .lk_info .lk_menu .item .desc
+    {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+
+
+    /*----------------
+        Order form
+    ----------------*/
+    .order_form .block_title
+    {
+        line-height: 30px;
+
+        margin-bottom: 30px;
+    }
+
+    .order_form .block_desc
+    {
+        margin-top: -15px;
+        margin-bottom: 30px;
+    }
+
+
+    .order_form .times
+    {
+        width: calc(100% + 60px);
+        margin-left: -60px;
+        padding: 40px 40px 40px 60px;
+    }
+
+
+
+    /*------------
+        Footer
+    ------------*/
+
+
+
+    /*-----------
+        PopUp
+    -----------*/
+    .modal
+    {
+        padding: 52px;
+    }
+}
