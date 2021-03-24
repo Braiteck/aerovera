@@ -234,6 +234,11 @@ button
     margin-right: var(--scroll_width) !important;
 }
 
+.compensate-for-scrollbar header.fixed
+{
+    padding-right: var(--scroll_width) !important;
+}
+
 
 .lozad
 {
@@ -500,6 +505,12 @@ button
 /*------------
     Header
 ------------*/
+.header_wrap + .header_wrap
+{
+    display: none;
+}
+
+
 header
 {
     position: relative;
@@ -1072,6 +1083,19 @@ header .contacts a:hover
     background: none;
 }
 
+.mob_header.fixed
+{
+    position: fixed;
+
+    margin: 0;
+    padding: 15px 0;
+
+    -webkit-animation: moveDown .5s;
+            animation: moveDown .5s;
+
+    background: #32333c;
+}
+
 
 .mob_header .cont
 {
@@ -1457,6 +1481,52 @@ header .contacts a:hover
 .mob_header .mob_menu_btn span:after
 {
     top: 8px;
+}
+
+
+
+header.fixed
+{
+    position: fixed;
+
+    margin: 0;
+    padding: 15px 0;
+
+    -webkit-animation: moveDown .5s;
+            animation: moveDown .5s;
+
+    background: #32333c;
+}
+
+header.fixed .contacts
+{
+    display: none;
+}
+
+
+@-webkit-keyframes moveDown
+{
+    0%
+    {
+        -webkit-transform: translateY(-80px);
+                transform: translateY(-80px);
+    }
+}
+@-moz-keyframes moveDown
+{
+    0%
+    {
+        -webkit-transform: translateY(-80px);
+                transform: translateY(-80px);
+    }
+}
+@keyframes moveDown
+{
+    0%
+    {
+        -webkit-transform: translateY(-80px);
+                transform: translateY(-80px);
+    }
 }
 
 
@@ -2635,11 +2705,18 @@ aside .auth .login button:hover
     margin-top: 17px;
 }
 
-.european .items .desc a
+.european .items .desc button
 {
     color: #0142bd;
 
-    text-decoration: none;
+    display: inline-block;
+
+    vertical-align: top;
+}
+
+.european .items .desc button:hover
+{
+    text-decoration: underline;
 }
 
 
@@ -2857,14 +2934,16 @@ aside .auth .login button:hover
     margin-top: 15px;
 }
 
-.direct_access .items .item .desc a
+.direct_access .items .item .desc button
 {
     color: #0142bd;
 
-    text-decoration: none;
+    display: inline-block;
+
+    vertical-align: top;
 }
 
-.direct_access .items .item .desc a:hover
+.direct_access .items .item .desc button:hover
 {
     text-decoration: underline;
 }
@@ -5560,4 +5639,201 @@ footer .creator a:hover
 #login_modal .or_register .btn:hover span.icon
 {
     color: #3470e0;
+}
+
+
+
+#difference_modal
+{
+    width: 1243px;
+    padding: 70px 40px;
+}
+
+
+#difference_modal .head
+{
+    display: flex;
+
+    justify-content: space-between;
+    align-items: stretch;
+    align-content: stretch;
+    flex-wrap: wrap;
+}
+
+
+#difference_modal .head .block_title
+{
+    width: 50%;
+    margin: 0;
+    padding: 0 70px 40px 0;
+}
+
+
+#difference_modal .head .img
+{
+    position: relative;
+
+    overflow: hidden;
+
+    width: 50%;
+    min-height: 175px;
+
+    background: #ddd;
+}
+
+#difference_modal .head .img img
+{
+    display: block;
+
+    width: 100%;
+    height: 100%;
+
+    object-fit: cover;
+}
+
+
+#difference_modal .row
+{
+    display: flex;
+
+    border: 1px solid #e0e0e0;
+
+    justify-content: space-between;
+    align-items: stretch;
+    align-content: stretch;
+    flex-wrap: wrap;
+}
+
+#difference_modal .row > *
+{
+    display: flex;
+    flex-direction: column;
+
+    width: 50%;
+    padding: 29px 44px;
+}
+
+#difference_modal .row > * + *
+{
+    border-left: 1px solid #e0e0e0;
+}
+
+
+#difference_modal .row .title
+{
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 21px;
+}
+
+
+#difference_modal .row .list
+{
+    line-height: 21px;
+
+    margin-top: 7px;
+
+    flex: 1 0 auto;
+}
+
+#difference_modal .row .list .title
+{
+    color: #32333c;
+
+    margin-bottom: 23px;
+}
+
+#difference_modal .row li
+{
+    position: relative;
+
+    display: block;
+    overflow: hidden;
+
+    padding-left: 39px;
+
+    list-style-type: none;
+}
+
+#difference_modal .row li + li
+{
+    margin-top: 21px;
+}
+
+
+#difference_modal .row .exp
+{
+    color: #0142bd;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 21px;
+
+    margin-top: 23px;
+}
+
+
+#difference_modal .row > *.col_left li:before
+{
+    position: absolute;
+    top: 9px;
+    left: 0;
+
+    display: block;
+
+    width: 14px;
+    height: 1px;
+
+    content: '';
+
+    background: #0142bd;
+}
+
+
+#difference_modal .row > *.col_right .list
+{
+    padding-top: 44px;
+}
+
+#difference_modal .row > *.col_right li:before
+{
+    position: absolute;
+    top: 4px;
+    left: 0;
+
+    display: block;
+
+    width: 10px;
+    height: 6px;
+
+    content: '';
+    transform: rotate(-45deg);
+
+    border-bottom: 1px solid #0142bd;
+    border-left: 1px solid #0142bd;
+}
+
+
+#difference_modal .bottom_text
+{
+    line-height: 21px;
+
+    margin-top: 30px;
+}
+
+#difference_modal .bottom_text > * + *
+{
+    margin-top: 20px;
+}
+
+#difference_modal .bottom_text h5
+{
+    color: #32333c;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 21px;
+}
+
+#difference_modal .bottom_text * + h5
+{
+    margin-top: 33px;
 }

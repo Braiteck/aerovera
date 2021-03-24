@@ -633,4 +633,47 @@
     {
         display: block;
     }
+
+
+
+    #difference_modal .head .block_title
+    {
+        width: 100%;
+        margin-bottom: 25px;
+        padding: 0;
+    }
+
+
+    #difference_modal .head .img
+    {
+        width: 100%;
+        min-height: 0;
+    }
+
+
+    #difference_modal .row > *
+    {
+        padding: 24px;
+    }
+
+    #difference_modal .row li
+    {
+        padding-left: 32px;
+    }
+
+    #difference_modal .row li + li
+    {
+        margin-top: 16px;
+    }
+
+
+    #difference_modal .bottom_text h5
+    {
+        font-size: 17px;
+    }
+
+    #difference_modal .bottom_text * + h5
+    {
+        margin-top: 24px;
+    }
 }

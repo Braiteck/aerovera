@@ -38,6 +38,17 @@
     /*------------
         Header
     ------------*/
+    .header_wrap:first-child
+    {
+        height: 0 !important;
+    }
+
+    .header_wrap + .header_wrap
+    {
+        display: block;
+    }
+
+
     .mob_header
     {
         display: block;
@@ -45,7 +56,8 @@
 
 
     header,
-    header.absolute
+    header.absolute,
+    header.fixed
     {
         position: fixed;
         z-index: 101;
@@ -62,6 +74,7 @@
 
         transition: transform .3s linear;
         transform: translateX(-100%);
+        animation: none;
 
         background: #32333c;
     }
@@ -947,6 +960,12 @@
         padding: 40px;
     }
 
+    .modal .block_title
+    {
+        font-size: 22px;
+        line-height: 28px;
+    }
+
 
     .modal.order_form .block_title
     {
@@ -977,5 +996,44 @@
     .modal.order_form .times:before
     {
         top: 81px;
+    }
+
+
+
+    #difference_modal .head .block_title
+    {
+        padding: 0 40px 40px 0;
+    }
+
+
+    #difference_modal .row > *
+    {
+        padding: 29px 34px;
+    }
+
+
+    #difference_modal .row .title
+    {
+        font-size: 17px;
+    }
+
+    #difference_modal .row .list .title
+    {
+        color: #32333c;
+
+        margin-bottom: 16px;
+    }
+
+    #difference_modal .row .exp
+    {
+        font-size: 17px;
+
+        margin-top: 20px;
+    }
+
+
+    #difference_modal .row > *.col_right .list
+    {
+        padding-top: 16px;
     }
 }

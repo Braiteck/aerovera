@@ -59,6 +59,12 @@
     }
 
 
+    header.fixed .order_btn
+    {
+        display: none;
+    }
+
+
 
     /*-------------
         Sidebar
@@ -855,5 +861,11 @@
     .modal
     {
         padding: 52px;
+    }
+
+
+    #difference_modal
+    {
+        padding: 66px 40px;
     }
 }

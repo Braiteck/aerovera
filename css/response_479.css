@@ -343,4 +343,24 @@
         font-size: 18px;
         line-height: 22px;
     }
+
+
+
+    #difference_modal
+    {
+        padding: 60px 24px 30px;
+    }
+
+
+    #difference_modal .row > *
+    {
+        padding: 19px;
+    }
+
+    #difference_modal .row .exp,
+    #difference_modal .bottom_text h5
+    {
+        font-size: 15px;
+        line-height: 19px;
+    }
 }

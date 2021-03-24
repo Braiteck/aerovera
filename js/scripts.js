@@ -163,6 +163,18 @@ $(() => {
 
 
 $(window).on('load', () => {
+	// Фикс. шапка
+	headerInit = true,
+		headerHeight = $(window).width() > 1279 ? $('header').outerHeight() : $('.mob_header').outerHeight()
+
+	$('header:not(.absolute), .mob_header:not(.absolute)').wrap('<div class="header_wrap"></div>')
+	$('.header_wrap').height(headerHeight)
+
+	headerInit && $(window).scrollTop() > headerHeight
+		? $('header, .mob_header').addClass('fixed')
+		: $('header, .mob_header').removeClass('fixed')
+
+
 	// Выравнивание элементов в сетке
 	$('.airlines .row').each(function () {
 		airlinesHeight($(this), parseInt($(this).css('--airlines_count')))
@@ -176,6 +188,22 @@ $(window).on('load', () => {
 
 
 $(window).resize(() => {
+	// Фикс. шапка
+	headerInit = false
+	$('.header_wrap').height('auto')
+
+	setTimeout(() => {
+		headerInit = true
+		headerHeight = $(window).width() > 1279 ? $('header').outerHeight() : $('.mob_header').outerHeight()
+
+		$('.header_wrap').height(headerHeight)
+
+		headerInit && $(window).scrollTop() > headerHeight
+			? $('header, .mob_header').addClass('fixed')
+			: $('header, .mob_header').removeClass('fixed')
+	}, 100)
+
+
 	// Выравнивание элементов в сетке
 	$('.airlines .row').each(function () {
 		airlinesHeight($(this), parseInt($(this).css('--airlines_count')))
@@ -184,6 +212,14 @@ $(window).resize(() => {
 	$('.lk_info .lk_menu .row').each(function () {
 		lkMenuHeight($(this), parseInt($(this).css('--lk_menu_count')))
 	})
+})
+
+
+$(window).scroll(() => {
+	// Фикс. шапка
+	typeof headerInit !== 'undefined' && headerInit && $(window).scrollTop() > headerHeight
+		? $('header, .mob_header').addClass('fixed')
+		: $('header, .mob_header').removeClass('fixed')
 })
 
 
