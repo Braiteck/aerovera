@@ -1064,7 +1064,7 @@ header .contacts a:hover
 .mob_header
 {
     position: relative;
-    z-index: 101;
+    z-index: 100;
     top: 0;
     left: 0;
 
